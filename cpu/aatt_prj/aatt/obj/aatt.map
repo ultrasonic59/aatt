@@ -1206,9 +1206,8 @@ END GROUP
                 0x0000000000001194       0x25 ./User/main.o
  *fill*         0x00000000000011b9        0x3 
  .rodata.tbl_db_rel
-                0x00000000000011bc       0x5b ./User/main.o
+                0x00000000000011bc       0x5c ./User/main.o
                 0x00000000000011bc                tbl_db_rel
- *fill*         0x0000000000001217        0x1 
  .rodata.AHBPrescTable
                 0x0000000000001218       0x10 ./User/system_ch32v00x.o
                 0x0000000000001218                AHBPrescTable

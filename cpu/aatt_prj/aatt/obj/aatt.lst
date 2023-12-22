@@ -108,7 +108,7 @@ SYMBOL TABLE:
 000008e4 g     F .text	0000000a USART_GetFlagStatus
 20000200 g       .bss	00000000 _sbss
 00000100 g       *ABS*	00000000 __stack_size
-000011bc g     O .text	0000005b tbl_db_rel
+000011bc g     O .text	0000005c tbl_db_rel
 00000922 g     F .text	00000054 USART_Printf_Init
 000000aa g     F .text	0000000a .hidden __riscv_restore_2
 00000288 g     F .text	00000018 set_rele7
@@ -2091,8 +2091,11 @@ Disassembly of section .text:
 
 000011bc <tbl_db_rel>:
     11bc:	8000 c040 a020 e060 9010 d050 b030 f070     ..@. .`...P.0.p.
-    11cc:	8808 c848 0002 0000 0000 0000 0000 0000     ..H.............
-	...
+    11cc:	8808 c848 8404 c444 a424 e464 9414 d454     ..H...D.$.d...T.
+    11dc:	b434 f474 8c0c cc4c 8606 c646 a626 e666     4.t...L...F.&.f.
+    11ec:	9616 d656 b636 f676 8e0e ce4e 8707 c747     ..V.6.v...N...G.
+    11fc:	a727 e767 9717 d757 b737 f777 8f0f cf4f     '.g...W.7.w...O.
+    120c:	af2f ef6f 9f1f df5f bf3f ff7f               /.o..._.?...
 
 00001218 <AHBPrescTable>:
     1218:	0201 0403 0605 0807 0201 0403 0605 0807     ................

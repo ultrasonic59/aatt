@@ -36,8 +36,18 @@
   #define RELE8_GPIO         GPIOD
 ////====================================================
 
+#define MAX_DB 91
+#define R1DB (0x1<<7)
+#define R2DB (0x1<<6)
+#define R4DB (0x1<<5)
+#define R8DB (0x1<<4)
+#define R16DB (0x1<<3)
+#define R20_0DB (0x1<<2)
+#define R20_1DB (0x1<<1)
+#define R20_2DB (0x1<<0)
 
 ///========================================
 extern void init_gpio(void);
+extern void set_reles(uint8_t i_dat);
 
 #endif /* BRD_AATT_BRD_H_ */

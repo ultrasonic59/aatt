@@ -16,42 +16,42 @@ RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 GPIO_InitStructure.GPIO_Pin = RELE1_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE1_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE1_GPIO, &GPIO_InitStructure);
 ///=============rele2==================================
 GPIO_InitStructure.GPIO_Pin = RELE2_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE2_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE2_GPIO, &GPIO_InitStructure);
 ///=============rele3==================================
 GPIO_InitStructure.GPIO_Pin = RELE3_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE3_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE3_GPIO, &GPIO_InitStructure);
 ///=============rele4==================================
 GPIO_InitStructure.GPIO_Pin = RELE4_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE4_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE4_GPIO, &GPIO_InitStructure);
 ///=============rele5==================================
 GPIO_InitStructure.GPIO_Pin = RELE5_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE5_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE5_GPIO, &GPIO_InitStructure);
 ///=============rele6==================================
 GPIO_InitStructure.GPIO_Pin = RELE6_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE6_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE6_GPIO, &GPIO_InitStructure);
 ///=============rele7==================================
-GPIO_InitStructure.GPIO_Pin = RELE1_PIN;
+GPIO_InitStructure.GPIO_Pin = RELE7_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE7_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE7_GPIO, &GPIO_InitStructure);
 ///=============rele8==================================
-GPIO_InitStructure.GPIO_Pin = RELE1_PIN;
+GPIO_InitStructure.GPIO_Pin = RELE8_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
-PIO_Init(RELE8_GPIO, &GPIO_InitStructure);
+GPIO_Init(RELE8_GPIO, &GPIO_InitStructure);
 }
 ///=============== rele1 =======================================
 void set_rele1(uint8_t on_off)
@@ -62,7 +62,7 @@ void set_rele1(uint8_t on_off)
      GPIO_WriteBit(RELE1_GPIO,RELE1_PIN, Bit_RESET);
 }
 ///=============== rele2 =======================================
-void set_rele1(uint8_t on_off)
+void set_rele2(uint8_t on_off)
 {
  if(on_off&0x1)
      GPIO_WriteBit(RELE2_GPIO,RELE2_PIN,Bit_SET);

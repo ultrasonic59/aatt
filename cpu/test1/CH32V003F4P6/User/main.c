@@ -22,11 +22,7 @@
  *
  */
 
-#include <string.h>
-#include <stdlib.h>
 #include "debug.h"
-
-#include "../brd/aatt_brd.h"
 
 
 /* Global define */
@@ -68,22 +64,7 @@ void USARTx_CFG(void)
     USART_Init(USART1, &USART_InitStructure);
     USART_Cmd(USART1, ENABLE);
 }
-///===================================================
-const uint8_t tbl_db_rel[MAX_DB]={0,R1DB,R2DB,R1DB|R2DB,R4DB,R1DB|R4DB
-                        ,R2DB|R4DB, R1DB|R2DB|R4DB,R8DB , R1DB|R8DB, R2DB|R8DB
-                        ,R1DB|R2DB|R8DB,R4DB|R8DB,R1DB|R4DB|R8DB,R2DB|R4DB|R8DB,R1DB|R2DB|R4DB|R8DB
-                        ,R16DB,R1DB|R16DB,R2DB|R16DB,R1DB|R2DB|R16DB,R20_1DB
-};
 
-void set_rele_db(uint8_t t_db)
-{
- if(t_db > MAX_DB)
-     t_db=MAX_DB;
-uint8_t t_rel=tbl_db_rel[t_db];
-set_reles(t_rel);
-}
-
-///===================================================
 /*********************************************************************
  * @fn      main
  *
@@ -91,17 +72,8 @@ set_reles(t_rel);
  *
  * @return  none
  */
-#define LEN_BUF 32
 int main(void)
 {
-////uint8_t t_rel =0;
-uint8_t t_db =0;
-uint8_t ii =0;
-
- uint8_t in_buf[LEN_BUF] ;
- uint8_t out_buf[LEN_BUF] ;
- uint8_t cur_cnt=0;
- ////   uint8_t tst=0;
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
     SystemCoreClockUpdate();
     Delay_Init();
@@ -114,16 +86,6 @@ uint8_t ii =0;
     printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
 
     USARTx_CFG();
-    init_gpio();
-#if 0
-    for(;;)
-    {
-        set_reles(tst);
- ////    tst++;
-     tst^=0xff;
-     Delay_Ms(500);
-    }
-#endif
 
     while(1)
     {
@@ -133,25 +95,10 @@ uint8_t ii =0;
             /* waiting for receiving finish */
         }
         val = (USART_ReceiveData(USART1));
-        in_buf[cur_cnt]=val;
-        if(cur_cnt<LEN_BUF)
-            cur_cnt++;
-        if(val=='\r')
-            {
-            in_buf[cur_cnt-1]='\0';
-            t_db=atoi(in_buf);
-            set_rele_db(t_db);
-            sprintf(out_buf,"%x\r\n",t_db);
-            for(ii=0;ii< strlen(out_buf) ;ii++)
-                {
-                USART_SendData(USART1, out_buf[ii]);
-                while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET)
-                    {
-                 /* waiting for sending finish */
-                    }
-                }
-            cur_cnt=0;
-            }
-
+        USART_SendData(USART1, ~val);
+        while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET)
+        {
+            /* waiting for sending finish */
+        }
     }
 }

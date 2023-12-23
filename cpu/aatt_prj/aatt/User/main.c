@@ -164,7 +164,8 @@ uint8_t ii =0;
             in_buf[cur_cnt-1]='\0';
             t_db=atoi(in_buf);
             set_rele_db(t_db);
-            sprintf(out_buf,"%x\r\n",t_db);
+            itoa(t_db+1,out_buf,16);
+ ////           sprintf(out_buf,"%x\r\n",t_db);
             for(ii=0;ii< strlen(out_buf) ;ii++)
                 {
                 USART_SendData(USART1, out_buf[ii]);

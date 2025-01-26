@@ -6,46 +6,46 @@ void init_gpio(void)
 GPIO_InitTypeDef  GPIO_InitStructure = {0};
 RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
 RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
-RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
+///RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 ///=============rele1==================================
 GPIO_InitStructure.GPIO_Pin = RELE1_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE1_GPIO, &GPIO_InitStructure);
 ///=============rele2==================================
 GPIO_InitStructure.GPIO_Pin = RELE2_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE2_GPIO, &GPIO_InitStructure);
 ///=============rele3==================================
 GPIO_InitStructure.GPIO_Pin = RELE3_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE3_GPIO, &GPIO_InitStructure);
 ///=============rele4==================================
 GPIO_InitStructure.GPIO_Pin = RELE4_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE4_GPIO, &GPIO_InitStructure);
 ///=============rele5==================================
 GPIO_InitStructure.GPIO_Pin = RELE5_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE5_GPIO, &GPIO_InitStructure);
 ///=============rele6==================================
 GPIO_InitStructure.GPIO_Pin = RELE6_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE6_GPIO, &GPIO_InitStructure);
 ///=============rele7==================================
 GPIO_InitStructure.GPIO_Pin = RELE7_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE7_GPIO, &GPIO_InitStructure);
 ///=============rele8==================================
 GPIO_InitStructure.GPIO_Pin = RELE8_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-GPIO_InitStructure.GPIO_Speed = GPIO_Speed_2MHz;///GPIO_Speed_50MHz;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE8_GPIO, &GPIO_InitStructure);
 }
 ///=============== rele1 =======================================
@@ -156,8 +156,28 @@ else
     set_rele8(0x0);
 
 }
+uint8_t RCC_Configuration( void )
+{
+    RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOA, ENABLE );
+    RCC_APB1PeriphClockCmd( RCC_APB1Periph_USART2, ENABLE );
+    RCC_APB1PeriphClockCmd( RCC_APB1Periph_TIM3, ENABLE );
+    RCC_AHBPeriphClockCmd( RCC_AHBPeriph_DMA1, ENABLE );
+    return 0;
+}
+
+void init_cdc_usb(void)
+{
+    uint16_t i;
+USB_Rx_LoadNum = 0x00;
+USB_Rx_DealNum = 0x00;
+USB_Rx_RemainNum = 0x00;
+for( i = 0; i < DEF_RX_BUF_NUM_MAX; i++ )
+{
+    USB_Rx_PackLen[ i ] = 0x00;
+}
+}
 
 void board_init(void)
 {
-gpio_init();
+    init_gpio();
 }

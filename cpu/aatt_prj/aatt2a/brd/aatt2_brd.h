@@ -1,7 +1,9 @@
-#ifndef __AA_TT2_BRD_H__
-#define __AA_TT2__BRD_H__
+#ifndef __AATT2_BRD_H__
+#define __AATT2__BRD_H__
 #include <stdint.h>
 #include "debug.h"
+#include "usb_desc.h"
+
 ///=====================================================
 ////=============rele1==================================
   #define RELE1_PIN          GPIO_Pin_14
@@ -70,7 +72,7 @@
   #define IN5_GPIO         GPIOA
 ///===================================================
 #endif
-
+///===================================================
 #define MAX_DB 91
 #define R1DB (0x1<<7)
 #define R2DB (0x1<<6)
@@ -80,11 +82,36 @@
 #define R20_0DB (0x1<<2)
 #define R20_1DB (0x1<<1)
 #define R20_2DB (0x1<<0)
+///==============================================
+#define DEF_TX_BUF_LEN       ( 4 * 512 )
+#define DEF_RX_BUF_LEN       ( 2 * 512 )
+#define DEF_USB_FS_PACK_LEN        DEF_USBD_FS_PACK_SIZE                        /* USB full speed mode packet size for serial x data */
+#define DEF_RX_BUF_NUM_MAX   ( DEF_RX_BUF_LEN / DEF_USB_FS_PACK_LEN )
+#define MAX_RX_BUF_LEN      64
+#define MAX_TX_BUF_LEN      64
+extern __attribute__ ((aligned(4))) uint8_t  USB_Rx_Buf[ DEF_RX_BUF_LEN ];
+extern __attribute__ ((aligned(4))) uint8_t  USB_Tx_Buf[ DEF_TX_BUF_LEN ];
+
+extern uint8_t RCC_Configuration( void );
+
+extern volatile uint16_t USB_Rx_PackLen[ DEF_RX_BUF_NUM_MAX ];                    /*  */
+extern volatile uint16_t USB_Rx_LoadNum;                                                /*  */
+extern volatile uint16_t USB_Rx_DealNum;                                                /* */
+extern volatile uint16_t USB_Rx_RemainNum;                                              /*  */
+extern uint8_t  USB_Down_StopFlag;                                                  /*  */
+extern int send_to_usb(uint16_t offs,uint8_t len);
+extern uint16_t check_usb_data_rdy();
+extern uint16_t get_usb_data_offs();
+extern void init_cdc_usb(void);
+extern uint8_t  usb_rx_b[];
+extern uint8_t usb_rx_len;
+extern uint8_t  usb_tx_b[];
 
 extern void gpio_init(void);
 extern void board_init(void);
-///===================================================
 
+extern void set_reles(uint8_t i_on);
+///===================================================
 
 #endif /// __BALOO_EMUL_LINE_BRD_H__
 

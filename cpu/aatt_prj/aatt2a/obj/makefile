@@ -9,8 +9,6 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include pc_cmd/subdir.mk
--include calc_crc/subdir.mk
 -include brd/subdir.mk
 -include User/subdir.mk
 -include Startup/subdir.mk

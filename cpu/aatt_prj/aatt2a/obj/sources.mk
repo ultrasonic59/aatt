@@ -29,6 +29,4 @@ Peripheral/src \
 Startup \
 User \
 brd \
-calc_crc \
-pc_cmd \
 

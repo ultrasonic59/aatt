@@ -10,10 +10,10 @@
 <booleanAttribute key="com.mounriver.debug.gdbjtag.openocd.doStartGdbServer" value="true"/>
 <booleanAttribute key="com.mounriver.debug.gdbjtag.openocd.enableSemihosting" value="false"/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.firstResetType" value="init"/>
-<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbClientOtherCommands" value="set mem inaccessible-by-default off&#13;&#10;set architecture riscv:rv32&#13;&#10;set remotetimeout unlimited&#13;&#10;set disassembler-options xw"/>
+<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbClientOtherCommands" value="set mem inaccessible-by-default off&#13;&#10;set architecture riscv:rv32&#13;&#10;set remotetimeout unlimited"/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbClientOtherOptions" value=""/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerConnectionAddress" value=""/>
-<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerExecutable" value="${eclipse_home}toolchain/OpenOCD/bin/${openocd_executable}"/>
+<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerExecutable" value="${eclipse_home}toolchain/OpenOCD/bin/openocd.exe"/>
 <intAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerGdbPortNumber" value="3333"/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerLog" value=""/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerOther" value="-f &quot;${eclipse_home}toolchain/OpenOCD/bin/wch-riscv.cfg&quot;"/>
@@ -22,7 +22,7 @@
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.otherInitCommands" value=""/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.otherRunCommands" value=""/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.secondResetType" value="halt"/>
-<stringAttribute key="com.mounriver.debug.gdbjtag.svdPath" value="${eclipse_home}template/wizard/WCH/RISC-V/CH32V003/NoneOS/CH32V003xx.svd"/>
+<stringAttribute key="com.mounriver.debug.gdbjtag.svdPath" value="${eclipse_home}template/wizard/WCH/RISC-V/CH32X035/NoneOS/CH32X035xx.svd"/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageFileName" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.imageOffset" value=""/>
 <stringAttribute key="org.eclipse.cdt.debug.gdbjtag.core.ipAddress" value="localhost"/>
@@ -46,12 +46,12 @@
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="false"/>
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
 <stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="obj\aatt2.elf"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="aatt2"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="obj\aatt2b.elf"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="aatt2b"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.release.1008047074"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/aatt2"/>
+<listEntry value="/aatt2b"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>

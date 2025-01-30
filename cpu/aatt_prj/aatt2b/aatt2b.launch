@@ -10,7 +10,7 @@
 <booleanAttribute key="com.mounriver.debug.gdbjtag.openocd.doStartGdbServer" value="true"/>
 <booleanAttribute key="com.mounriver.debug.gdbjtag.openocd.enableSemihosting" value="false"/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.firstResetType" value="init"/>
-<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbClientOtherCommands" value="set mem inaccessible-by-default off&#13;&#10;set architecture riscv:rv32&#13;&#10;set remotetimeout unlimited"/>
+<stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbClientOtherCommands" value="set mem inaccessible-by-default off&#13;&#10;set architecture riscv:rv32&#13;&#10;set remotetimeout unlimited&#13;&#10;set disassembler-options xw"/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbClientOtherOptions" value=""/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerConnectionAddress" value=""/>
 <stringAttribute key="com.mounriver.debug.gdbjtag.openocd.gdbServerExecutable" value="${eclipse_home}toolchain/OpenOCD/bin/openocd.exe"/>
@@ -49,7 +49,7 @@
 <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="obj\aatt2b.elf"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="aatt2b"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="true"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="ilg.gnumcueclipse.managedbuild.cross.riscv.config.elf.release.1008047074"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="com.mounriver.managedbuild.cross.riscv.config.elf.release.1008047074"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/aatt2b"/>
 </listAttribute>

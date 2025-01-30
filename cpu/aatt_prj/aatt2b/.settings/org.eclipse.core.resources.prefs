@@ -1,3 +1,6 @@
 eclipse.preferences.version=1
+encoding//Debug/debug.c=GBK
+encoding//Startup/startup_ch32x035.S=GBK
 encoding//User/main.c=GBK
 encoding//usb/ch32x035_usbfs_device.c=GBK
+encoding/aatt2b.launch=GBK

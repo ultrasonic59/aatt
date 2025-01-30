@@ -22,6 +22,6 @@ C_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 User/%.o: ../User/%.c
-	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -I"D:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Debug" -I"D:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Core" -I"D:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\User" -I"D:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Peripheral\inc" -I"D:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\usb" -I"D:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\brd" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
+	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -I"E:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Debug" -I"E:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Core" -I"E:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\User" -I"E:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Peripheral\inc" -I"E:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\brd" -I"E:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\usb" -std=gnu99 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "$@" "$<"
 	@	@
 

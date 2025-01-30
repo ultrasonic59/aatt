@@ -55,7 +55,7 @@ all: aatt2b.elf secondary-outputs
 
 # Tool invocations
 aatt2b.elf: $(OBJS) $(USER_OBJS)
-	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "E:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"aatt2b.map" --specs=nano.specs --specs=nosys.specs -o "aatt2b.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	@	@	riscv-none-embed-gcc -march=rv32imacxw -mabi=ilp32 -msmall-data-limit=8 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "D:\proj\velograph\aatt\cpu\aatt_prj\aatt2b\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"aatt2b.map" --specs=nano.specs --specs=nosys.specs -o "aatt2b.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@	@
 aatt2b.hex: aatt2b.elf
 	@	riscv-none-embed-objcopy -O ihex "aatt2b.elf"  "aatt2b.hex"

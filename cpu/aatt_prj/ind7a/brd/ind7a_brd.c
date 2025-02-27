@@ -75,6 +75,19 @@ void set_anod2(uint8_t on_off)
  else
      GPIO_WriteBit(ANOD2_GPIO,ANOD2_PIN, Bit_RESET);
 }
+void set_anods(uint8_t on_off)
+{
+if(on_off&0x1)
+{
+   set_anod1(0x0);
+   set_anod2(0x1);
+}
+else {
+    set_anod2(0x0);
+    set_anod1(0x1);
+}
+}
+
 ///=============== cath_a =======================================
 void set_cath_a(uint8_t on_off)
 {

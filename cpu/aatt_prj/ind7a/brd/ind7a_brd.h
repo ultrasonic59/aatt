@@ -51,5 +51,6 @@
 
 extern void init_gpio(void);
 extern void set_caths(uint8_t i_on);
+extern void set_anods(uint8_t on_off);
 
 #endif /* IND7A_BRD_H_ */

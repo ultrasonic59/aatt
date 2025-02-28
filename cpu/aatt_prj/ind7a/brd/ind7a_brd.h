@@ -24,7 +24,7 @@
   #define CAT_B_PIN          GPIO_Pin_2
   #define CAT_B_GPIO         GPIOD
 ////=============cath_c==================================
-  #define CAT_C_PIN          GPIO_Pin_0
+  #define CAT_C_PIN          GPIO_Pin_3
   #define CAT_C_GPIO         GPIOC
 ////=============cath_d==================================
   #define CAT_D_PIN          GPIO_Pin_5
@@ -40,7 +40,13 @@
   #define CAT_G_GPIO         GPIOD
 ////====================================================
 ///========================================
-#define NUM_DIG 10
+#define TIMER_PER 1000
+#define TIMER_PRE 100
+
+#define ON_ANOD 1
+#define OFF_ANOD 0
+
+#define NUM_DIG 16
 #define BIT_A (0x1<<0)
 #define BIT_B (0x1<<1)
 #define BIT_C (0x1<<2)
@@ -52,5 +58,7 @@
 extern void init_gpio(void);
 extern void set_caths(uint8_t i_on);
 extern void set_anods(uint8_t on_off);
+extern void set_anod1(uint8_t on_off);
+extern void set_anod2(uint8_t on_off);
 
 #endif /* IND7A_BRD_H_ */

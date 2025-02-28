@@ -62,7 +62,7 @@ GPIO_Init(CAT_G_GPIO, &GPIO_InitStructure);
 ///=============== anod1 =======================================
 void set_anod1(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(ANOD1_GPIO,ANOD1_PIN,Bit_SET);
  else
      GPIO_WriteBit(ANOD1_GPIO,ANOD1_PIN, Bit_RESET);
@@ -70,7 +70,7 @@ void set_anod1(uint8_t on_off)
 ///=============== anod1 =======================================
 void set_anod2(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(ANOD2_GPIO,ANOD2_PIN,Bit_SET);
  else
      GPIO_WriteBit(ANOD2_GPIO,ANOD2_PIN, Bit_RESET);
@@ -87,11 +87,10 @@ else {
     set_anod1(0x1);
 }
 }
-
 ///=============== cath_a =======================================
 void set_cath_a(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(CAT_A_GPIO,CAT_A_PIN,Bit_SET);
  else
      GPIO_WriteBit(CAT_A_GPIO,CAT_A_PIN, Bit_RESET);
@@ -99,7 +98,7 @@ void set_cath_a(uint8_t on_off)
 ///=============== cath_b =======================================
 void set_cath_b(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(CAT_B_GPIO,CAT_B_PIN,Bit_SET);
  else
      GPIO_WriteBit(CAT_B_GPIO,CAT_B_PIN, Bit_RESET);
@@ -107,7 +106,7 @@ void set_cath_b(uint8_t on_off)
 ///=============== cath_c =======================================
 void set_cath_c(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(CAT_C_GPIO,CAT_C_PIN,Bit_SET);
  else
      GPIO_WriteBit(CAT_C_GPIO,CAT_C_PIN, Bit_RESET);
@@ -115,7 +114,7 @@ void set_cath_c(uint8_t on_off)
 ///=============== cath_d =======================================
 void set_cath_d(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(CAT_D_GPIO,CAT_D_PIN,Bit_SET);
  else
      GPIO_WriteBit(CAT_D_GPIO,CAT_D_PIN, Bit_RESET);
@@ -123,7 +122,7 @@ void set_cath_d(uint8_t on_off)
 ///=============== cath_e =======================================
 void set_cath_e(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(CAT_E_GPIO,CAT_E_PIN,Bit_SET);
  else
      GPIO_WriteBit(CAT_E_GPIO,CAT_E_PIN, Bit_RESET);
@@ -131,7 +130,7 @@ void set_cath_e(uint8_t on_off)
 ///=============== cath_f =======================================
 void set_cath_f(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(CAT_F_GPIO,CAT_F_PIN,Bit_SET);
  else
      GPIO_WriteBit(CAT_F_GPIO,CAT_F_PIN, Bit_RESET);
@@ -139,13 +138,13 @@ void set_cath_f(uint8_t on_off)
 ///=============== cath_g =======================================
 void set_cath_g(uint8_t on_off)
 {
- if(on_off&0x1)
+ if((on_off&0x1)==0)
      GPIO_WriteBit(CAT_G_GPIO,CAT_G_PIN,Bit_SET);
  else
      GPIO_WriteBit(CAT_G_GPIO,CAT_G_PIN, Bit_RESET);
 }
 
-///===============reles=========================================
+///===============set_caths=========================================
 void set_caths(uint8_t i_on)
 {
 if(i_on&(0x1<<0))

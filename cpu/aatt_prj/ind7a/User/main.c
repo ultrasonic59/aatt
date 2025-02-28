@@ -87,7 +87,14 @@ const uint8_t tbl_7s[NUM_DIG]={BIT_A|BIT_B|BIT_C|BIT_D|BIT_E|BIT_F   ///0
                                ,BIT_A|BIT_C|BIT_D|BIT_E|BIT_F|BIT_G ///6
                                ,BIT_A|BIT_B|BIT_C///7
                                ,BIT_A|BIT_B|BIT_C|BIT_D|BIT_E|BIT_F|BIT_G//8
-                               ,BIT_A|BIT_B|BIT_C|BIT_D|BIT_F|BIT_G  //
+                               ,BIT_A|BIT_B|BIT_C|BIT_D|BIT_F|BIT_G  //9
+                               ,BIT_A|BIT_B|BIT_C|BIT_E|BIT_F|BIT_G//A
+                               ,BIT_C|BIT_D|BIT_E|BIT_F|BIT_G//B
+                               ,BIT_A|BIT_D|BIT_E|BIT_F//C
+                               ,BIT_B|BIT_C|BIT_D|BIT_E|BIT_G//d
+                               ,BIT_A|BIT_D|BIT_E|BIT_F|BIT_G//E
+                               ,BIT_A|BIT_E|BIT_F|BIT_G//f
+
  };
 
 void set_dig(uint8_t t_dig)
@@ -97,124 +104,69 @@ void set_dig(uint8_t t_dig)
 uint8_t t_symb=tbl_7s[t_dig];
 set_caths(t_symb);
 }
-static uint8_t cur_cnt=0;
+///static uint8_t cur_cnt=0;
 
-void show_val()
+void show_val(uint8_t val, uint8_t num_dig)
 {
-if(cur_cnt&0x1)
+if(num_dig&0x1)
    {
-    set_anods(0x1);
-    set_caths(cur_val>>4);
+    set_anods(0x0);
+ ///   set_dig(val);
    }
 else
     {
-    set_anods(0x0);
-    set_caths(cur_val&0xf);
+    set_anods(0x1);
+///    set_dig(val);
     }
-cur_cnt++;
+set_dig(val);
+
 }
 ///====================================================================
-/* some bit definitions for systick regs */
-#define SYSTICK_SR_CNTIF (1<<0)
-#define SYSTICK_CTLR_STE (1<<0)
-#define SYSTICK_CTLR_STIE (1<<1)
-#define SYSTICK_CTLR_STCLK (1<<2)
-#define SYSTICK_CTLR_STRE (1<<3)
-#define SYSTICK_CTLR_SWIE (1<<31)
-
-volatile uint32_t systick_cnt;
-#if 0
-/*
- * Start up the SysTick IRQ
- */
-void systick_init(void)
+void TIM1_Init(u16 per, u16 psc)
 {
-    /* disable default SysTick behavior */
-    SysTick->CTLR = 0;
-
-    /* enable the SysTick IRQ */
-    NVIC_EnableIRQ(SysTicK_IRQn);
-
-    /* Set the tick interval to 1ms for normal op */
-    SysTick->CMP = (FUNCONF_SYSTEM_CORE_CLOCK/1000)-1;
-
-    /* Start at zero */
-    SysTick->CNT = 0;
-    systick_cnt = 0;
-
-    /* Enable SysTick counter, IRQ, HCLK/1 */
-    SysTick->CTLR = SYSTICK_CTLR_STE | SYSTICK_CTLR_STIE |
-                    SYSTICK_CTLR_STCLK;
-}
-#endif
-#if 0
-/*
- * SysTick ISR just counts ticks
- * note - the __attribute__((interrupt)) syntax is crucial!
- */
-void SysTick_Handler(void) __attribute__((interrupt));
-void SysTick_Handler(void)
-{
-    // move the compare further ahead in time.
-    // as a warning, if more than this length of time
-    // passes before triggering, you may miss your
-    // interrupt.
-    SysTick->CMP += (FUNCONF_SYSTEM_CORE_CLOCK/1000);
-
-    /* clear IRQ */
-    SysTick->SR = 0;
-
-    /* update counter */
-    systick_cnt++;
-}
-#endif
-/*********************************************************************
- * @fn      TIM1_OutCompare_Init
- *
- * @brief   Initializes TIM1 output compare.
- *
- * @param   arr - the period value.
- *          psc - the prescaler value.
- *          ccp - the pulse value.
- *
- * @return  none
- */
-void TIM1_PWMOut_Init(u16 arr, u16 psc, u16 ccp)
-{
-    GPIO_InitTypeDef GPIO_InitStructure={0};
-    TIM_OCInitTypeDef TIM_OCInitStructure={0};
     TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStructure={0};
+    NVIC_InitTypeDef NVIC_InitStructure={0};
 
-    RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOD | RCC_APB2Periph_TIM1, ENABLE );
+    RCC_APB2PeriphClockCmd( RCC_APB2Periph_TIM1, ENABLE );
 
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
-    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-    GPIO_Init( GPIOD, &GPIO_InitStructure );
-
-    TIM_TimeBaseInitStructure.TIM_Period = arr;
+    TIM_TimeBaseInitStructure.TIM_Period = per;
     TIM_TimeBaseInitStructure.TIM_Prescaler = psc;
     TIM_TimeBaseInitStructure.TIM_ClockDivision = TIM_CKD_DIV1;
     TIM_TimeBaseInitStructure.TIM_CounterMode = TIM_CounterMode_Up;
     TIM_TimeBaseInit( TIM1, &TIM_TimeBaseInitStructure);
+    TIM_ClearITPendingBit( TIM1, TIM_IT_Update);
+    TIM_ITConfig( TIM1, TIM_IT_Update, ENABLE);
+    TIM_ARRPreloadConfig( TIM1, ENABLE);
 
-#if (PWM_MODE == PWM_MODE1)
-  TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;
-
-#elif (PWM_MODE == PWM_MODE2)
-    TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM2;
-
-#endif
-
-    TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-    TIM_OCInitStructure.TIM_Pulse = ccp;
-    TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
-    TIM_OC1Init( TIM1, &TIM_OCInitStructure );
-
-    TIM_CtrlPWMOutputs(TIM1, ENABLE );
-    TIM_OC1PreloadConfig( TIM1, TIM_OCPreload_Disable );
-    TIM_ARRPreloadConfig( TIM1, ENABLE );
+ ///   TIM_Cmd( TIM1, ENABLE );
+    NVIC_InitStructure.NVIC_IRQChannel = TIM1_UP_IRQn;
+    NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
+    NVIC_InitStructure.NVIC_IRQChannelSubPriority = 1;
+    NVIC_Init(&NVIC_InitStructure);
     TIM_Cmd( TIM1, ENABLE );
+}
+///volatile uint8_t v_tst =0;
+static uint8_t cur_cnt_dig=0;
+
+void TIM1_UP_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast"))); /* Interrupt handler function */
+void TIM1_UP_IRQHandler(void)
+{
+    if (TIM_GetFlagStatus(TIM1, TIM_FLAG_Update) != RESET)
+    {
+        TIM_ClearITPendingBit(TIM1, TIM_IT_Update);
+        if(cur_cnt_dig==0)
+        {
+            show_val(cur_val&0xf,0);
+        }
+        else {
+            {
+             show_val((cur_val>>4)&0xf,1);
+             }
+        }
+      cur_cnt_dig++;
+      cur_cnt_dig&=0x1;
+     }
 }
 
 ///====================================================================
@@ -250,15 +202,6 @@ void IIC_Init(u32 bound, u16 address)
     I2C_InitTSturcture.I2C_Ack = I2C_Ack_Enable;
     I2C_InitTSturcture.I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit;
     I2C_Init( I2C1, &I2C_InitTSturcture );
-
-    I2C_DMACmd( I2C1, ENABLE );
-
-    I2C_Cmd( I2C1, ENABLE );
-
-#if (I2C_MODE == HOST_MODE)
-    I2C_AcknowledgeConfig( I2C1, ENABLE );
-
-#endif
 }
 
 ///===================================================
@@ -272,9 +215,9 @@ void IIC_Init(u32 bound, u16 address)
 #define LEN_BUF 32
 int main(void)
 {
-uint8_t tst =0;
+///uint8_t tst =0;
 ///uint8_t t_db =0;
-///uint8_t ii =0;
+uint16_t rdat =0;
 
 ///uint8_t in_buf[LEN_BUF] ;
 /// uint8_t out_buf[LEN_BUF] ;
@@ -293,113 +236,37 @@ uint8_t tst =0;
 
     USARTx_CFG();
     init_gpio();
-    IIC_Init( 80000, RXAdderss );
+    TIM1_Init(TIMER_PER, TIMER_PRE);
+    IIC_Init( 10000, RXAdderss ); // 100Kbps
+    I2C1->CTLR1 |= 0x0080; // CTLR1_NOSTRETCH_Set - Disable clock stretching
+    I2C1->CTLR1 |= 0x0400; // CTLR1_ACK_Set - Enable ACK following each byte received - This also stops the clock stretching for each character received.
 
-#if 1
+ ///   set_anod1(0);
+ ///   set_anod2(0);
+ ///   show_val(0,0);
+#if 0
     for(;;)
     {
-        set_caths(tst&0xf);
+ ///   show_val(tst,0);
+
+ ////       set_anod1(tst&0x1);
+  ///      set_caths(tst&0xf);
      tst++;
+  ///   if(tst>9)
+  ///       tst=0;
+ ///    tst&=0xf;
+     cur_val=tst;
  ///    tst^=0xff;
      Delay_Ms(500);
     }
 #endif
-#if 0
-    while(1)
+ while(1)
     {
-        while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == RESET)
-        {
-            /* waiting for receiving finish */
-        }
-        val = (USART_ReceiveData(USART1));
-        in_buf[cur_cnt]=val;
-        if(cur_cnt<LEN_BUF)
-            cur_cnt++;
-        if(val=='\r')
-            {
-            in_buf[cur_cnt-1]='\0';
-            t_db=atoi(in_buf);
-            set_rele_db(t_db);
-            itoa(t_db+1,out_buf,16);
- ////           sprintf(out_buf,"%x\r\n",t_db);
-            for(ii=0;ii< strlen(out_buf) ;ii++)
-                {
-                USART_SendData(USART1, out_buf[ii]);
-                while(USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET)
-                    {
-                 /* waiting for sending finish */
-                    }
-                }
-            cur_cnt=0;
-            }
-
-    }
-#endif
-}
-#if 0
-void I2C1_ER_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast")));
-
-/*********************************************************************
- * @fn      I2C1_ER_IRQHandler
- *
- * @brief   This function IIC PEC error exception.
- *
- * @return  none
- */
-void I2C1_ER_IRQHandler(void )
-{
-    if( I2C_GetITStatus( I2C1, I2C_IT_PECERR ) != RESET )
-    {
-        printf( "PECEER\r\n" );
-        I2C_ClearITPendingBit( I2C1, I2C_IT_PECERR );
+     if(I2C_GetFlagStatus(I2C1, I2C_FLAG_RXNE))
+     {
+         rdat= I2C_ReadRegister(I2C1, I2C_Register_DATAR);
+         printf( "rdat:%04x\r\n",rdat );
+      }
     }
 }
-
-#endif
-
-///==================================================================================
-#if 0
-/*********************************************************************
- * @fn      main
- *
- * @brief   Main program.
- *
- * @return  none
- */
-int main(void)
-{
-    SystemCoreClockUpdate();
-    Delay_Init();
-#if (SDI_PRINT == SDI_PR_OPEN)
-    SDI_Printf_Enable();
-#else
-    USART_Printf_Init(115200);
-#endif
-    printf("SystemClk:%d\r\n", SystemCoreClock);
-    printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
-
-    NVIC_EnableIRQ(SysTicK_IRQn);
-    SysTick->SR &= ~(1 << 0);
-    SysTick->CMP = SystemCoreClock-1;
-    SysTick->CNT = 0;
-    SysTick->CTLR = 0xF;
-
-    while(1);
-}
-
-void SysTick_Handler(void) __attribute__((interrupt("WCH-Interrupt-fast")));
-
-/*********************************************************************
- * @fn      ADC1_IRQHandler
- *
- * @brief   ADC1_2 Interrupt Service Function.
- *
- * @return  none
- */
-void SysTick_Handler(void)
-{
-    printf("Systick\r\n");
-    SysTick->SR = 0;
-}
-#endif
 ///===================================================================

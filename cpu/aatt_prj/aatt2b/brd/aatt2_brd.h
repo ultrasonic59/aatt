@@ -24,12 +24,22 @@
   #define RELE6_PIN          GPIO_Pin_14
   #define RELE6_GPIO         GPIOA
 ////=============rele7==================================
-  #define RELE7_PIN          GPIO_Pin_7
+  #define RELE7_PIN          GPIO_Pin_5
   #define RELE7_GPIO         GPIOA
 ////=============rele8==================================
   #define RELE8_PIN          GPIO_Pin_6
   #define RELE8_GPIO         GPIOA
+////============= uart_dbg_tx ==================================
+  #define UART_DBG_TX_PIN          GPIO_Pin_15
+  #define UART_DBG_TX_GPIO         GPIOA
 ////====================================================
+
+////=============kk14==================================
+  #define KK14_PIN          GPIO_Pin_11
+  #define KK14_GPIO         GPIOB
+////====================================================
+
+
 #if 0
 ///============= OUT6 ==================================
   #define OUT6_PIN          GPIO_Pin_0
@@ -111,6 +121,8 @@ extern void gpio_init(void);
 extern void board_init(void);
 
 extern void set_reles(uint8_t i_on);
+extern void set_led(uint8_t on_off);
+
 ///===================================================
 
 #endif /// __BALOO_EMUL_LINE_BRD_H__

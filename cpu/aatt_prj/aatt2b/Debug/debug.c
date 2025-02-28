@@ -90,7 +90,7 @@ void Delay_Ms(uint32_t n)
  */
 void USART_Printf_Init(uint32_t baudrate)
 {
-    GPIO_InitTypeDef  GPIO_InitStructure;
+///    GPIO_InitTypeDef  GPIO_InitStructure;
     USART_InitTypeDef USART_InitStructure;
 
 #if(DEBUG == DEBUG_UART1)
@@ -104,12 +104,15 @@ void USART_Printf_Init(uint32_t baudrate)
 #elif(DEBUG == DEBUG_UART2)
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
+///    GPIO_PinRemapConfig( GPIO_PartialRemap2_USART2, ENABLE);
+ ////   GPIO_PinRemapConfig( GPIO_FullRemap_USART2, ENABLE);
+/*
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_15;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
     GPIO_Init(GPIOA, &GPIO_InitStructure);
-
+    GPIO_PinRemapConfig( GPIO_FullRemap_USART2, ENABLE);
+*/
 #elif(DEBUG == DEBUG_UART3)
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3, ENABLE);
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);

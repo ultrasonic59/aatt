@@ -85,11 +85,11 @@ void GPIO_Toggle_INIT(void)
 {
     GPIO_InitTypeDef GPIO_InitStructure = {0};
 
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
-    GPIO_Init(GPIOA, &GPIO_InitStructure);
+    GPIO_Init(GPIOB, &GPIO_InitStructure);
 }
 
 /*********************************************************************
@@ -101,6 +101,7 @@ void GPIO_Toggle_INIT(void)
  */
 int main(void)
 {
+    uint8_t tst=0;
  ///=======================================================
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
     SystemCoreClockUpdate();
@@ -109,13 +110,22 @@ int main(void)
     printf("SystemClk:%d\r\n", SystemCoreClock);
     printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
     RCC_Configuration( );
+    GPIO_Toggle_INIT();
 
     /* Usb Init */
-    USBFS_RCC_Init( );
-    USBFS_Device_Init( ENABLE , PWR_VDD_SupplyVoltage());
+///    USBFS_RCC_Init( );
+///    USBFS_Device_Init( ENABLE , PWR_VDD_SupplyVoltage());
 
-    init_cdc_usb();
+///    init_cdc_usb();
     board_init();
+    for(;;)
+    {
+        set_led(tst);
+        printf("\r\n start loop\r\n");
+        Delay_Ms(100);
+tst++;
+    }
+
     NVIC_EnableIRQ( USBFS_IRQn );
 ///    put_out_n(0x0);
     printf("\r\n start loop\r\n");

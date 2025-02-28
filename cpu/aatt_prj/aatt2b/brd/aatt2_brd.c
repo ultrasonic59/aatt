@@ -6,6 +6,8 @@ void init_gpio(void)
 GPIO_InitTypeDef  GPIO_InitStructure = {0};
 RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
 RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
+
 ///RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE);
 ///=============rele1==================================
 GPIO_InitStructure.GPIO_Pin = RELE1_PIN;
@@ -47,7 +49,39 @@ GPIO_InitStructure.GPIO_Pin = RELE8_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE8_GPIO, &GPIO_InitStructure);
+////=============kk14==================================
+
+GPIO_InitStructure.GPIO_Pin = KK14_PIN;
+GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+GPIO_Init(KK14_GPIO, &GPIO_InitStructure);
+///========== uart_dbg_tx =============================
+GPIO_InitStructure.GPIO_Pin = UART_DBG_TX_PIN;
+GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+///GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+GPIO_Init(UART_DBG_TX_GPIO, &GPIO_InitStructure);
+GPIO_PinRemapConfig( GPIO_FullRemap_USART2, ENABLE);
+
+
 }
+///=============== led kk14 =======================================
+void _set_led(uint8_t on_off)
+{
+ if(on_off&0x1)
+     GPIO_WriteBit(KK14_GPIO,KK14_PIN,Bit_SET);
+ else
+     GPIO_WriteBit(KK14_GPIO,KK14_PIN, Bit_RESET);
+}
+void set_led(uint8_t on_off)
+{
+ if(on_off&0x1)
+     GPIO_WriteBit(GPIOA,GPIO_Pin_15,Bit_SET);
+ else
+     GPIO_WriteBit(GPIOA,GPIO_Pin_15, Bit_RESET);
+}
+
 ///=============== rele1 =======================================
 void set_rele1(uint8_t on_off)
 {

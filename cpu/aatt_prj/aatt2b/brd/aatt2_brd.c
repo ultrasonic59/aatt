@@ -49,16 +49,20 @@ GPIO_InitStructure.GPIO_Pin = RELE8_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(RELE8_GPIO, &GPIO_InitStructure);
+///=============kk0==================================
+GPIO_InitStructure.GPIO_Pin = KK0_PIN;
+GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+GPIO_Init(KK0_GPIO, &GPIO_InitStructure);
 ////=============kk14==================================
-
 GPIO_InitStructure.GPIO_Pin = KK14_PIN;
 GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(KK14_GPIO, &GPIO_InitStructure);
 ///========== uart_dbg_tx =============================
 GPIO_InitStructure.GPIO_Pin = UART_DBG_TX_PIN;
-GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
-///GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+///GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
 
 GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(UART_DBG_TX_GPIO, &GPIO_InitStructure);
@@ -67,17 +71,17 @@ GPIO_PinRemapConfig( GPIO_FullRemap_USART2, ENABLE);
 
 }
 ///=============== led kk14 =======================================
-void _set_led(uint8_t on_off)
+void set_led(uint8_t on_off)
 {
  if(on_off&0x1)
      GPIO_WriteBit(KK14_GPIO,KK14_PIN,Bit_SET);
  else
      GPIO_WriteBit(KK14_GPIO,KK14_PIN, Bit_RESET);
 }
-void set_led(uint8_t on_off)
+void set_kk0(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(GPIOA,GPIO_Pin_15,Bit_SET);
+     GPIO_WriteBit(KK0_GPIO,KK0_PIN,Bit_SET);
  else
      GPIO_WriteBit(GPIOA,GPIO_Pin_15, Bit_RESET);
 }
@@ -210,8 +214,60 @@ for( i = 0; i < DEF_RX_BUF_NUM_MAX; i++ )
     USB_Rx_PackLen[ i ] = 0x00;
 }
 }
+void IIC_Init()
+{
+    GPIO_InitTypeDef GPIO_InitStructure={0};
+    I2C_InitTypeDef I2C_InitTSturcture={0};
+    GPIO_PinRemapConfig( GPIO_PartialRemap1_I2C1, ENABLE);
+
+    RCC_APB2PeriphClockCmd( RCC_APB2Periph_GPIOA, ENABLE );
+    RCC_APB1PeriphClockCmd( RCC_APB1Periph_I2C1, ENABLE );
+
+    GPIO_InitStructure.GPIO_Pin = I2C_SCL_PIN;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_Init( I2C_SCL_GPIO, &GPIO_InitStructure );
+
+    GPIO_InitStructure.GPIO_Pin = I2C_SDA_PIN;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+    GPIO_Init( I2C_SDA_GPIO, &GPIO_InitStructure );
+
+    I2C_InitTSturcture.I2C_ClockSpeed = I2C_BR;
+    I2C_InitTSturcture.I2C_Mode = I2C_Mode_I2C;
+    I2C_InitTSturcture.I2C_DutyCycle = I2C_DutyCycle_2;
+    I2C_InitTSturcture.I2C_OwnAddress1 = I2C_ADDR;
+    I2C_InitTSturcture.I2C_Ack = I2C_Ack_Enable;
+    I2C_InitTSturcture.I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit;
+    I2C_Init( I2C1, &I2C_InitTSturcture );
+
+    I2C_Cmd( I2C1, ENABLE );
+
+    I2C_AcknowledgeConfig( I2C1, ENABLE );
+}
+void i2c_WriteOneByte(u8 DataToWrite)
+{
+    while( I2C_GetFlagStatus( I2C1, I2C_FLAG_BUSY ) != RESET );
+    I2C_GenerateSTART( I2C1, ENABLE );
+
+    while( !I2C_CheckEvent( I2C1, I2C_EVENT_MASTER_MODE_SELECT ) );
+    I2C_Send7bitAddress( I2C1, I2C_ADDR, I2C_Direction_Transmitter );
+
+    while( !I2C_CheckEvent( I2C1, I2C_EVENT_MASTER_TRANSMITTER_MODE_SELECTED ) );
+
+///    I2C_SendData( I2C1, (u8)(WriteAddr&0x00FF) );
+ ////   while( !I2C_CheckEvent( I2C1, I2C_EVENT_MASTER_BYTE_TRANSMITTED ) );
+
+ ///   if( I2C_GetFlagStatus( I2C1, I2C_FLAG_TXE ) !=  RESET )
+    {
+        I2C_SendData( I2C1, DataToWrite );
+    }
+    while( !I2C_CheckEvent( I2C1, I2C_EVENT_MASTER_BYTE_TRANSMITTED ) );
+    I2C_GenerateSTOP( I2C1, ENABLE );
+}
 
 void board_init(void)
 {
     init_gpio();
+    IIC_Init();
 }

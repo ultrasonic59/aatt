@@ -18,6 +18,8 @@
  ***Only PA0--PA15 and PC16--PC17 support input pull-down.
  */
 
+#include <string.h>
+#include <stdlib.h>
 #include <ch32x035_usbfs_device.h>
 #include "debug.h"
 
@@ -64,13 +66,65 @@ const uint8_t tbl_db_rel[MAX_DB+1]={0,R1DB,R2DB,R1DB|R2DB,R4DB,R1DB|R4DB
                ,R4DB|R8DB|R16DB|R20_2DB|R20_1DB|R20_0DB,R1DB|R4DB|R8DB|R16DB|R20_2DB|R20_1DB|R20_0DB  //88,89
                ,R2DB|R4DB|R8DB|R16DB|R20_2DB|R20_1DB|R20_0DB,R1DB|R2DB|R4DB|R8DB|R16DB|R20_2DB|R20_1DB|R20_0DB ///90,91
 };
+////uint8_t bin_to_bcd(uint8_t idat)
 
+void send_i2c_db(uint8_t t_db)
+{
+    i2c_WriteOneByte(t_db);
+}
 void set_rele_db(uint8_t t_db)
 {
  if(t_db > MAX_DB)
      t_db=MAX_DB;
+ send_i2c_db(t_db);
 uint8_t t_rel=tbl_db_rel[t_db];
 set_reles(t_rel);
+}
+int send_to_usb(uint16_t offs,uint8_t len){
+if( len )
+    {
+///    printf("\r\n send_to_usb[%x]\r\n",len);
+        NVIC_DisableIRQ( USBFS_IRQn );
+        USBFS_Endp_DataUp( DEF_UEP3, &USB_Tx_Buf[ offs ], len, DEF_UEP_CPY_LOAD );
+        /* Calculate the variables of interest */
+         NVIC_EnableIRQ( USBFS_IRQn );
+    }
+return 0;
+}
+
+uint16_t check_usb_data_rdy()
+{
+return usb_rx_len;
+}
+#define LEN_BUF 32
+
+uint8_t cur_cnt=0;
+uint8_t in_buf[LEN_BUF]={0} ;
+
+uint8_t parse_cmd(uint8_t *ibuf,uint8_t len)
+{
+///uint16_t tmp;
+uint8_t rez=0;
+uint8_t ii;
+if((ibuf==0))
+    return 0;
+if((len+cur_cnt)<LEN_BUF){
+    for(ii=0;ii<len;ii++){
+        in_buf[cur_cnt]=ibuf[ii];
+        if(in_buf[cur_cnt]=='\r'){
+            in_buf[cur_cnt]='\0';
+            rez=cur_cnt;
+            cur_cnt=0;
+            break;
+        }
+        cur_cnt++;
+     }
+}
+else {
+    cur_cnt=0;
+    rez=0;
+    }
+return rez;
 }
 
 
@@ -91,7 +145,7 @@ void GPIO_Toggle_INIT(void)
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOB, &GPIO_InitStructure);
 }
-
+#define MAX_CNT_LED 10
 /*********************************************************************
  * @fn      main
  *
@@ -101,23 +155,31 @@ void GPIO_Toggle_INIT(void)
  */
 int main(void)
 {
-    uint8_t tst=0;
+    uint16_t t_len=0;
+    uint16_t ii=0;
+    uint8_t t_db =0;
+uint8_t tst=0;
+uint8_t cnt_led=0;
+
  ///=======================================================
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
     SystemCoreClockUpdate();
     Delay_Init();
     USART_Printf_Init(115200);
-    printf("SystemClk:%d\r\n", SystemCoreClock);
-    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
+///    printf("SystemClk:%d\r\n", SystemCoreClock);
+///    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
     RCC_Configuration( );
     GPIO_Toggle_INIT();
+    board_init();
+
+///    set_rele_db(0);
 
     /* Usb Init */
-///    USBFS_RCC_Init( );
-///    USBFS_Device_Init( ENABLE , PWR_VDD_SupplyVoltage());
+    USBFS_RCC_Init( );
+    USBFS_Device_Init( ENABLE , PWR_VDD_SupplyVoltage());
 
-///    init_cdc_usb();
-    board_init();
+    init_cdc_usb();
+    /*
     for(;;)
     {
         set_led(tst);
@@ -125,46 +187,54 @@ int main(void)
         Delay_Ms(100);
 tst++;
     }
-
+*/
     NVIC_EnableIRQ( USBFS_IRQn );
-///    put_out_n(0x0);
-    printf("\r\n start loop\r\n");
-#if 0
+    printf("SystemClk:%d\r\n", SystemCoreClock);
+    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
+    set_rele_db(0);
+
+///    printf("\r\n start loop\r\n");
+#if 1
     while(1)
     {
         t_len=check_usb_data_rdy();
         if(t_len){
-            t_len=parse_cmd(usb_rx_b,t_len,usb_tx_b);
+            t_len=parse_cmd(usb_rx_b,t_len);
             if(t_len){
-
-           for(ii=0;ii<t_len;ii++){
+                t_db=atoi(in_buf);
+                set_rele_db(t_db);
+                itoa(t_db+1,usb_tx_b,16);
+             for(ii=0;ii<strlen(usb_tx_b);ii++){
                USB_Tx_Buf[ii]= usb_tx_b[ii];
            }
                send_to_usb(0,t_len);
-
         }
         usb_rx_len=0;
         }
         else
-        Delay_Ms(100);
+        {
+        Delay_Ms(50);
+  ///      send_i2c_db(0x15);
+
+        cnt_led++;
+        if(cnt_led>MAX_CNT_LED )
+           {
+            cnt_led=0;
+            tst++;
+            set_led(tst);
+ ///           send_i2c_db(0x12);
+ ///           set_rele2(tst);
+ ///           set_rele3(tst);
+  ////          set_rele4(tst);
+ /*
+            set_rele5(tst);
+            set_rele6(tst);
+            set_rele7(tst);
+            set_rele8(tst);
+            */
+           }
+        }
     }
 #endif
-
-    ///====================================================
-    u8 i = 0;
-
-    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
-    SystemCoreClockUpdate();
-    Delay_Init();
-    USART_Printf_Init(115200);
-    printf("SystemClk:%d\r\n", SystemCoreClock);
-    printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
-    printf("GPIO Toggle TEST\r\n");
-    GPIO_Toggle_INIT();
-
-    while(1)
-    {
-        Delay_Ms(500);
-        GPIO_WriteBit(GPIOA, GPIO_Pin_0, (i == 0) ? (i = Bit_SET) : (i = Bit_RESET));
-    }
+///====================================================
 }

@@ -21,7 +21,7 @@
   #define RELE5_PIN          GPIO_Pin_3
   #define RELE5_GPIO         GPIOA
 ////=============rele6==================================
-  #define RELE6_PIN          GPIO_Pin_14
+  #define RELE6_PIN          GPIO_Pin_4
   #define RELE6_GPIO         GPIOA
 ////=============rele7==================================
   #define RELE7_PIN          GPIO_Pin_5
@@ -32,9 +32,59 @@
 ////============= uart_dbg_tx ==================================
   #define UART_DBG_TX_PIN          GPIO_Pin_15
   #define UART_DBG_TX_GPIO         GPIOA
-////====================================================
+////============= uart_dbg_rx ==================================
+  #define UART_DBG_RX_PIN          GPIO_Pin_16
+  #define UART_DBG_RX_GPIO         GPIOA
+///================ i2c_scl ==============================
+  #define I2C_SCL_PIN          GPIO_Pin_13
+  #define I2C_SCL_GPIO         GPIOA
+///================ i2c_sda ==============================
+  #define I2C_SDA_PIN          GPIO_Pin_14
+  #define I2C_SDA_GPIO         GPIOA
 
-////=============kk14==================================
+///=============kk0==================================
+  #define KK0_PIN          GPIO_Pin_7
+  #define KK0_GPIO         GPIOA
+///=============kk1==================================
+  #define KK1_PIN          GPIO_Pin_6
+  #define KK1_GPIO         GPIOC
+///=============kk2==================================
+  #define KK2_PIN          GPIO_Pin_7
+  #define KK2_GPIO         GPIOC
+///=============kk3==================================
+  #define KK3_PIN          GPIO_Pin_0
+  #define KK3_GPIO         GPIOB
+///=============kk4==================================
+  #define KK4_PIN          GPIO_Pin_1
+  #define KK4_GPIO         GPIOB
+///=============kk5==================================
+  #define KK5_PIN          GPIO_Pin_2
+  #define KK5_GPIO         GPIOB
+///=============kk6==================================
+  #define KK6_PIN          GPIO_Pin_3
+  #define KK6_GPIO         GPIOB
+///=============kk7==================================
+  #define KK7_PIN          GPIO_Pin_4
+  #define KK7_GPIO         GPIOB
+///=============kk8==================================
+  #define KK8_PIN          GPIO_Pin_5
+  #define KK8_GPIO         GPIOB
+///=============kk9==================================
+  #define KK9_PIN          GPIO_Pin_6
+  #define KK9_GPIO         GPIOB
+///=============kk10==================================
+  #define KK10_PIN          GPIO_Pin_7
+  #define KK10_GPIO         GPIOB
+///=============kk11==================================
+  #define KK11_PIN          GPIO_Pin_8
+  #define KK11_GPIO         GPIOB
+///=============kk12==================================
+  #define KK12_PIN          GPIO_Pin_9
+  #define KK12_GPIO         GPIOB
+///=============kk13==================================
+  #define KK13_PIN          GPIO_Pin_10
+  #define KK13_GPIO         GPIOB
+///=============kk14==================================
   #define KK14_PIN          GPIO_Pin_11
   #define KK14_GPIO         GPIOB
 ////====================================================
@@ -83,6 +133,10 @@
 ///===================================================
 #endif
 ///===================================================
+#define I2C_BR 100000
+#define I2C_ADDR 0x2    ///0xa0
+////#define I2C_ADDR_DB 0x01
+
 #define MAX_DB 91
 #define R1DB (0x1<<7)
 #define R2DB (0x1<<6)
@@ -123,6 +177,16 @@ extern void board_init(void);
 extern void set_reles(uint8_t i_on);
 extern void set_led(uint8_t on_off);
 
+extern void set_rele1(uint8_t on_off);
+extern void set_rele2(uint8_t on_off);
+extern void set_rele3(uint8_t on_off);
+extern void set_rele4(uint8_t on_off);
+extern void set_rele5(uint8_t on_off);
+extern void set_rele6(uint8_t on_off);
+extern void set_rele7(uint8_t on_off);
+extern void set_rele8(uint8_t on_off);
+
+extern void i2c_WriteOneByte(u8 DataToWrite);
 ///===================================================
 
 #endif /// __BALOO_EMUL_LINE_BRD_H__

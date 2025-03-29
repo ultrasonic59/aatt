@@ -205,6 +205,15 @@ void IIC_Init(u32 bound, u16 address)
 }
 
 ///===================================================
+uint8_t bin_to_bcd(uint8_t idat)
+{
+uint8_t rez=0;
+rez=(idat/10);
+rez<<=4 ;
+rez+=(idat%10);
+
+    return rez;
+}
 /*********************************************************************
  * @fn      main
  *
@@ -237,7 +246,7 @@ uint16_t rdat =0;
     USARTx_CFG();
     init_gpio();
     TIM1_Init(TIMER_PER, TIMER_PRE);
-    IIC_Init( 10000, RXAdderss ); // 100Kbps
+    IIC_Init( 100000, RXAdderss ); // 100Kbps
     I2C1->CTLR1 |= 0x0080; // CTLR1_NOSTRETCH_Set - Disable clock stretching
     I2C1->CTLR1 |= 0x0400; // CTLR1_ACK_Set - Enable ACK following each byte received - This also stops the clock stretching for each character received.
 
@@ -265,7 +274,8 @@ uint16_t rdat =0;
      if(I2C_GetFlagStatus(I2C1, I2C_FLAG_RXNE))
      {
          rdat= I2C_ReadRegister(I2C1, I2C_Register_DATAR);
-         printf( "rdat:%04x\r\n",rdat );
+         cur_val= bin_to_bcd(rdat);
+         printf( "rdat:%02x:%02x\r\n",rdat ,cur_val);
       }
     }
 }

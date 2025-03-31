@@ -166,11 +166,15 @@ uint8_t cnt_led=0;
     SystemCoreClockUpdate();
     Delay_Init();
     USART_Printf_Init(115200);
-///    printf("SystemClk:%d\r\n", SystemCoreClock);
+    Delay_Ms(1000);
+ ///   printf("SystemClk:%d\r\n", SystemCoreClock);
 ///    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
     RCC_Configuration( );
     GPIO_Toggle_INIT();
     board_init();
+    set_rele_db(0);
+    printf("SystemClk:%d\r\n", SystemCoreClock);
+    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
 
 ///    set_rele_db(0);
 
@@ -189,11 +193,11 @@ tst++;
     }
 */
     NVIC_EnableIRQ( USBFS_IRQn );
-    printf("SystemClk:%d\r\n", SystemCoreClock);
-    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
-    set_rele_db(0);
+///    printf("SystemClk:%d\r\n", SystemCoreClock);
+///    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
+ ///   set_rele_db(34);
 
-///    printf("\r\n start loop\r\n");
+    printf("\r\n start loop\r\n");
 #if 1
     while(1)
     {

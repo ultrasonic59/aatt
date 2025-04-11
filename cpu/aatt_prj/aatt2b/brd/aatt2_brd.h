@@ -138,14 +138,14 @@
 ////#define I2C_ADDR_DB 0x01
 
 #define MAX_DB 91
-#define R1DB (0x1<<7)
-#define R2DB (0x1<<6)
-#define R4DB (0x1<<5)
-#define R8DB (0x1<<4)
-#define R16DB (0x1<<3)
-#define R20_0DB (0x1<<2)
-#define R20_1DB (0x1<<1)
-#define R20_2DB (0x1<<0)
+#define R1DB (0x1<<0)
+#define R2DB (0x1<<1)
+#define R4DB (0x1<<2)
+#define R8DB (0x1<<3)
+#define R16DB (0x1<<4)
+#define R20_0DB (0x1<<5)
+#define R20_1DB (0x1<<6)
+#define R20_2DB (0x1<<7)
 ///==============================================
 #define DEF_TX_BUF_LEN       ( 4 * 512 )
 #define DEF_RX_BUF_LEN       ( 2 * 512 )

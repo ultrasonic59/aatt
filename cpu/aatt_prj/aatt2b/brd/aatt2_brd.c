@@ -90,65 +90,65 @@ void set_kk0(uint8_t on_off)
 void set_rele1(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE1_GPIO,RELE1_PIN,Bit_SET);
+     GPIO_WriteBit(RELE1_GPIO,RELE1_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE1_GPIO,RELE1_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE1_GPIO,RELE1_PIN, Bit_SET);
 }
 ///=============== rele2 =======================================
 void set_rele2(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE2_GPIO,RELE2_PIN,Bit_SET);
+     GPIO_WriteBit(RELE2_GPIO,RELE2_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE2_GPIO,RELE2_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE2_GPIO,RELE2_PIN, Bit_SET);
 }
 ///=============== rele3 =======================================
 void set_rele3(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE3_GPIO,RELE3_PIN,Bit_SET);
+     GPIO_WriteBit(RELE3_GPIO,RELE3_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE3_GPIO,RELE3_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE3_GPIO,RELE3_PIN, Bit_SET);
 }
 ///=============== rele4 =======================================
 void set_rele4(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE4_GPIO,RELE4_PIN,Bit_SET);
+     GPIO_WriteBit(RELE4_GPIO,RELE4_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE4_GPIO,RELE4_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE4_GPIO,RELE4_PIN, Bit_SET);
 }
 ///=============== rele5 =======================================
 void set_rele5(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE5_GPIO,RELE5_PIN,Bit_SET);
+     GPIO_WriteBit(RELE5_GPIO,RELE5_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE5_GPIO,RELE5_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE5_GPIO,RELE5_PIN, Bit_SET);
 }
 ///=============== rele6 =======================================
 void set_rele6(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE6_GPIO,RELE6_PIN,Bit_SET);
+     GPIO_WriteBit(RELE6_GPIO,RELE6_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE6_GPIO,RELE6_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE6_GPIO,RELE6_PIN, Bit_SET);
 }
 ///=============== rele7 =======================================
 void set_rele7(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE7_GPIO,RELE7_PIN,Bit_SET);
+     GPIO_WriteBit(RELE7_GPIO,RELE7_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE7_GPIO,RELE7_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE7_GPIO,RELE7_PIN, Bit_SET);
 }
 ///=============== rele8 =======================================
 void set_rele8(uint8_t on_off)
 {
  if(on_off&0x1)
-     GPIO_WriteBit(RELE8_GPIO,RELE8_PIN,Bit_SET);
+     GPIO_WriteBit(RELE8_GPIO,RELE8_PIN,Bit_RESET);
  else
-     GPIO_WriteBit(RELE8_GPIO,RELE8_PIN, Bit_RESET);
+     GPIO_WriteBit(RELE8_GPIO,RELE8_PIN, Bit_SET);
 }
 ///===============reles=========================================
 void set_reles(uint8_t i_on)

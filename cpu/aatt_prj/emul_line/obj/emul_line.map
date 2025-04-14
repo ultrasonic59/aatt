@@ -1,0 +1,2014 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memcpy.o)
+                              ./User/ch32x035_usbfs_device.o (memcpy)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o)
+                              ./brd/baloo_emul_line_brd.o (printf)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o)
+                              ./User/main.o (puts)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o) (__swbuf_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o) (__swsetup_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o) (_fflush_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o) (__sinit)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fwalk.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o) (_fwalk)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-impure.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o) (_global_impure_ptr)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memset.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o) (memset)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o) (_free_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o) (_malloc_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o) (_vfprintf_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o) (__sread)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-writer.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o) (_write_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-closer.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o) (_close_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fstatr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o) (_fstat_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-isattyr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o) (_isatty_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-lseekr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o) (_lseek_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memchr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o) (memchr)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memmove.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o) (memmove)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-mlock.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o) (_realloc_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-readr.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o) (_read_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-sbrkr.o) (errno)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-closer.o) (_close)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(fstat.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fstatr.o) (_fstat)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(isatty.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-isattyr.o) (_isatty)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(lseek.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-lseekr.o) (_lseek)
+c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
+                              c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-readr.o) (_read)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .data          0x0000000000000000        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .bss           0x0000000000000000        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .text          0x0000000000000000        0x0 ./calc_crc/calc_crc.o
+ .data          0x0000000000000000        0x0 ./calc_crc/calc_crc.o
+ .bss           0x0000000000000000        0x0 ./calc_crc/calc_crc.o
+ .text          0x0000000000000000        0x0 ./brd/baloo_emul_line_brd.o
+ .data          0x0000000000000000        0x0 ./brd/baloo_emul_line_brd.o
+ .bss           0x0000000000000000        0x0 ./brd/baloo_emul_line_brd.o
+ .sbss.cur_stat
+                0x0000000000000000        0x1 ./brd/baloo_emul_line_brd.o
+ .text          0x0000000000000000        0x0 ./User/ch32x035_it.o
+ .data          0x0000000000000000        0x0 ./User/ch32x035_it.o
+ .bss           0x0000000000000000        0x0 ./User/ch32x035_it.o
+ .text          0x0000000000000000        0x0 ./User/ch32x035_usbfs_device.o
+ .data          0x0000000000000000        0x0 ./User/ch32x035_usbfs_device.o
+ .bss           0x0000000000000000        0x0 ./User/ch32x035_usbfs_device.o
+ .bss.USBFS_EP2_Buf
+                0x0000000000000000       0x40 ./User/ch32x035_usbfs_device.o
+ .text          0x0000000000000000        0x0 ./User/emul_line.o
+ .data          0x0000000000000000        0x0 ./User/emul_line.o
+ .bss           0x0000000000000000        0x0 ./User/emul_line.o
+ .text          0x0000000000000000        0x0 ./User/main.o
+ .data          0x0000000000000000        0x0 ./User/main.o
+ .bss           0x0000000000000000        0x0 ./User/main.o
+ .text          0x0000000000000000        0x0 ./User/system_ch32x035.o
+ .data          0x0000000000000000        0x0 ./User/system_ch32x035.o
+ .bss           0x0000000000000000        0x0 ./User/system_ch32x035.o
+ .text          0x0000000000000000        0x0 ./User/usb_desc.o
+ .data          0x0000000000000000        0x0 ./User/usb_desc.o
+ .bss           0x0000000000000000        0x0 ./User/usb_desc.o
+ .text          0x0000000000000000        0x0 ./Startup/startup_ch32x035.o
+ .data          0x0000000000000000        0x0 ./Startup/startup_ch32x035.o
+ .bss           0x0000000000000000        0x0 ./Startup/startup_ch32x035.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_adc.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_adc.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_DeInit
+                0x0000000000000000       0x42 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_Init
+                0x0000000000000000      0x100 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_StructInit
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_Cmd  0x0000000000000000       0x3e ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_DMACmd
+                0x0000000000000000       0x3e ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_ITConfig
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_SoftwareStartConvCmd
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_GetSoftwareStartConvStatus
+                0x0000000000000000       0x34 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_DiscModeChannelCountConfig
+                0x0000000000000000       0x5c ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_DiscModeCmd
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_RegularChannelConfig
+                0x0000000000000000      0x248 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_ExternalTrigConvCmd
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_GetConversionValue
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_GetDualModeConversionValue
+                0x0000000000000000       0x18 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AutoInjectedConvCmd
+                0x0000000000000000       0x3e ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_InjectedDiscModeCmd
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_ExternalTrigInjectedConvConfig
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_ExternalTrigInjectedConvCmd
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_SoftwareStartInjectedConvCmd
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_GetSoftwareStartInjectedConvCmdStatus
+                0x0000000000000000       0x34 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_InjectedChannelConfig
+                0x0000000000000000      0x19c ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_InjectedSequencerLengthConfig
+                0x0000000000000000       0x5e ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_SetInjectedOffset
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_GetInjectedConversionValue
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdogCmd
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdogThresholdsConfig
+                0x0000000000000000       0x34 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdog1ThresholdsConfig
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdog2ThresholdsConfig
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdog3ThresholdsConfig
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdogSingleChannelConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_GetFlagStatus
+                0x0000000000000000       0x3a ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_ClearFlag
+                0x0000000000000000       0x26 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_GetITStatus
+                0x0000000000000000       0x6a ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_ClearITPendingBit
+                0x0000000000000000       0x38 ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdogResetCmd
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_AnalogWatchdogScanCmd
+                0x0000000000000000       0x3e ./Peripheral/src/ch32x035_adc.o
+ .text.ADC_CLKConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_adc.o
+ .debug_info    0x0000000000000000     0x158c ./Peripheral/src/ch32x035_adc.o
+ .debug_abbrev  0x0000000000000000      0x2c2 ./Peripheral/src/ch32x035_adc.o
+ .debug_aranges
+                0x0000000000000000      0x140 ./Peripheral/src/ch32x035_adc.o
+ .debug_ranges  0x0000000000000000      0x130 ./Peripheral/src/ch32x035_adc.o
+ .debug_line    0x0000000000000000     0x107e ./Peripheral/src/ch32x035_adc.o
+ .debug_str     0x0000000000000000      0xc0b ./Peripheral/src/ch32x035_adc.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_adc.o
+ .debug_frame   0x0000000000000000      0x4bc ./Peripheral/src/ch32x035_adc.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_awu.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_awu.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_awu.o
+ .text.AutoWakeUpCmd
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_awu.o
+ .text.AWU_SetPrescaler
+                0x0000000000000000       0x42 ./Peripheral/src/ch32x035_awu.o
+ .text.AWU_SetWindowValue
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_awu.o
+ .debug_info    0x0000000000000000      0xa4f ./Peripheral/src/ch32x035_awu.o
+ .debug_abbrev  0x0000000000000000      0x241 ./Peripheral/src/ch32x035_awu.o
+ .debug_aranges
+                0x0000000000000000       0x30 ./Peripheral/src/ch32x035_awu.o
+ .debug_ranges  0x0000000000000000       0x20 ./Peripheral/src/ch32x035_awu.o
+ .debug_line    0x0000000000000000      0x37d ./Peripheral/src/ch32x035_awu.o
+ .debug_str     0x0000000000000000      0x65d ./Peripheral/src/ch32x035_awu.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_awu.o
+ .debug_frame   0x0000000000000000       0x70 ./Peripheral/src/ch32x035_awu.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_dbgmcu.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_dbgmcu.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_dbgmcu.o
+ .text.DBGMCU_GetREVID
+                0x0000000000000000       0x1a ./Peripheral/src/ch32x035_dbgmcu.o
+ .text.DBGMCU_GetDEVID
+                0x0000000000000000       0x1e ./Peripheral/src/ch32x035_dbgmcu.o
+ .text.__get_DEBUG_CR
+                0x0000000000000000       0x1a ./Peripheral/src/ch32x035_dbgmcu.o
+ .text.__set_DEBUG_CR
+                0x0000000000000000       0x1a ./Peripheral/src/ch32x035_dbgmcu.o
+ .text.DBGMCU_Config
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_dbgmcu.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_dma.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_dma.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_DeInit
+                0x0000000000000000      0x15a ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_Init
+                0x0000000000000000       0xa8 ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_StructInit
+                0x0000000000000000       0x6a ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_Cmd  0x0000000000000000       0x40 ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_ITConfig
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_GetFlagStatus
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_ClearFlag
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_GetITStatus
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_dma.o
+ .text.DMA_ClearITPendingBit
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_dma.o
+ .debug_info    0x0000000000000000      0xd2c ./Peripheral/src/ch32x035_dma.o
+ .debug_abbrev  0x0000000000000000      0x2b3 ./Peripheral/src/ch32x035_dma.o
+ .debug_aranges
+                0x0000000000000000       0x70 ./Peripheral/src/ch32x035_dma.o
+ .debug_ranges  0x0000000000000000       0x60 ./Peripheral/src/ch32x035_dma.o
+ .debug_line    0x0000000000000000      0x6f3 ./Peripheral/src/ch32x035_dma.o
+ .debug_str     0x0000000000000000      0x814 ./Peripheral/src/ch32x035_dma.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_dma.o
+ .debug_frame   0x0000000000000000      0x174 ./Peripheral/src/ch32x035_dma.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_exti.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_exti.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_DeInit
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_Init
+                0x0000000000000000      0x170 ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_StructInit
+                0x0000000000000000       0x32 ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x0000000000000000       0x2c ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_GetFlagStatus
+                0x0000000000000000       0x38 ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_ClearFlag
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_GetITStatus
+                0x0000000000000000       0x56 ./Peripheral/src/ch32x035_exti.o
+ .text.EXTI_ClearITPendingBit
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_exti.o
+ .debug_info    0x0000000000000000      0xc05 ./Peripheral/src/ch32x035_exti.o
+ .debug_abbrev  0x0000000000000000      0x268 ./Peripheral/src/ch32x035_exti.o
+ .debug_aranges
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_exti.o
+ .debug_ranges  0x0000000000000000       0x48 ./Peripheral/src/ch32x035_exti.o
+ .debug_line    0x0000000000000000      0x629 ./Peripheral/src/ch32x035_exti.o
+ .debug_str     0x0000000000000000      0x7ae ./Peripheral/src/ch32x035_exti.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_exti.o
+ .debug_frame   0x0000000000000000      0x114 ./Peripheral/src/ch32x035_exti.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_flash.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_flash.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_SetLatency
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_Unlock
+                0x0000000000000000       0x2a ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_Lock
+                0x0000000000000000       0x1e ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_ErasePage
+                0x0000000000000000       0x96 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_EraseAllPages
+                0x0000000000000000       0x88 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_EraseOptionBytes
+                0x0000000000000000       0xb6 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_OptionBytePR
+                0x0000000000000000       0x8e ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_EnableWriteProtection
+                0x0000000000000000      0x142 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_EnableReadOutProtection
+                0x0000000000000000       0xa6 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_UserOptionByteConfig
+                0x0000000000000000       0xe0 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_GetUserOptionByte
+                0x0000000000000000       0x16 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_GetWriteProtectionOptionByte
+                0x0000000000000000       0x14 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_GetReadOutProtectionStatus
+                0x0000000000000000       0x2c ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_ITConfig
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_GetFlagStatus
+                0x0000000000000000       0x56 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_ClearFlag
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_GetStatus
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_GetBank1Status
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x0000000000000000       0x60 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_WaitForLastBank1Operation
+                0x0000000000000000       0x60 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_Unlock_Fast
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_Lock_Fast
+                0x0000000000000000       0x1e ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_BufReset
+                0x0000000000000000       0x62 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_BufLoad
+                0x0000000000000000       0x74 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_ErasePage_Fast
+                0x0000000000000000       0x70 ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_EraseBlock_32K_Fast
+                0x0000000000000000       0x7e ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_ProgramPage_Fast
+                0x0000000000000000       0x6e ./Peripheral/src/ch32x035_flash.o
+ .text.SystemReset_StartMode
+                0x0000000000000000       0x6e ./Peripheral/src/ch32x035_flash.o
+ .text.ROM_ERASE
+                0x0000000000000000      0x13e ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_ROM_ERASE
+                0x0000000000000000      0x36e ./Peripheral/src/ch32x035_flash.o
+ .text.FLASH_ROM_WRITE
+                0x0000000000000000      0x1da ./Peripheral/src/ch32x035_flash.o
+ .debug_info    0x0000000000000000     0x1186 ./Peripheral/src/ch32x035_flash.o
+ .debug_abbrev  0x0000000000000000      0x399 ./Peripheral/src/ch32x035_flash.o
+ .debug_aranges
+                0x0000000000000000      0x110 ./Peripheral/src/ch32x035_flash.o
+ .debug_ranges  0x0000000000000000      0x100 ./Peripheral/src/ch32x035_flash.o
+ .debug_line    0x0000000000000000     0x15a0 ./Peripheral/src/ch32x035_flash.o
+ .debug_str     0x0000000000000000      0xaa5 ./Peripheral/src/ch32x035_flash.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_flash.o
+ .debug_frame   0x0000000000000000      0x42c ./Peripheral/src/ch32x035_flash.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_gpio.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_gpio.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_DeInit
+                0x0000000000000000       0x8e ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_AFIODeInit
+                0x0000000000000000       0x2a ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_StructInit
+                0x0000000000000000       0x2e ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_ReadInputData
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x0000000000000000       0x38 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_ReadOutputData
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_SetBits
+                0x0000000000000000       0x34 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_ResetBits
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_Write
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_PinLockConfig
+                0x0000000000000000       0x5e ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_EXTILineConfig
+                0x0000000000000000       0xa2 ./Peripheral/src/ch32x035_gpio.o
+ .text.GPIO_IPD_Unused
+                0x0000000000000000      0x350 ./Peripheral/src/ch32x035_gpio.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_i2c.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_i2c.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_DeInit
+                0x0000000000000000       0x42 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_Init
+                0x0000000000000000      0x1e8 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_StructInit
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_Cmd  0x0000000000000000       0x50 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_DMACmd
+                0x0000000000000000       0x5e ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_DMALastTransferCmd
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_GenerateSTART
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_GenerateSTOP
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x0000000000000000       0x5c ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_DualAddressCmd
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_ITConfig
+                0x0000000000000000       0x68 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_SendData
+                0x0000000000000000       0x28 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_ReceiveData
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_Send7bitAddress
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_ReadRegister
+                0x0000000000000000       0x3c ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_NACKPositionConfig
+                0x0000000000000000       0x64 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_TransmitPEC
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_PECPositionConfig
+                0x0000000000000000       0x64 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_CalculatePEC
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_GetPEC
+                0x0000000000000000       0x26 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_ARPCmd
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_StretchClockCmd
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_FastModeDutyCycleConfig
+                0x0000000000000000       0x5e ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_CheckEvent
+                0x0000000000000000       0x84 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_GetLastEvent
+                0x0000000000000000       0x5e ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_GetFlagStatus
+                0x0000000000000000       0x88 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_ClearFlag
+                0x0000000000000000       0x42 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_GetITStatus
+                0x0000000000000000       0x72 ./Peripheral/src/ch32x035_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x0000000000000000       0x42 ./Peripheral/src/ch32x035_i2c.o
+ .debug_info    0x0000000000000000     0x13bf ./Peripheral/src/ch32x035_i2c.o
+ .debug_abbrev  0x0000000000000000      0x2c2 ./Peripheral/src/ch32x035_i2c.o
+ .debug_aranges
+                0x0000000000000000      0x118 ./Peripheral/src/ch32x035_i2c.o
+ .debug_ranges  0x0000000000000000      0x108 ./Peripheral/src/ch32x035_i2c.o
+ .debug_line    0x0000000000000000      0xcdb ./Peripheral/src/ch32x035_i2c.o
+ .debug_str     0x0000000000000000      0xa99 ./Peripheral/src/ch32x035_i2c.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_i2c.o
+ .debug_frame   0x0000000000000000      0x41c ./Peripheral/src/ch32x035_i2c.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_iwdg.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_iwdg.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_iwdg.o
+ .text.IWDG_WriteAccessCmd
+                0x0000000000000000       0x1e ./Peripheral/src/ch32x035_iwdg.o
+ .text.IWDG_SetPrescaler
+                0x0000000000000000       0x1e ./Peripheral/src/ch32x035_iwdg.o
+ .text.IWDG_SetReload
+                0x0000000000000000       0x1e ./Peripheral/src/ch32x035_iwdg.o
+ .text.IWDG_ReloadCounter
+                0x0000000000000000       0x1a ./Peripheral/src/ch32x035_iwdg.o
+ .text.IWDG_Enable
+                0x0000000000000000       0x1a ./Peripheral/src/ch32x035_iwdg.o
+ .text.IWDG_GetFlagStatus
+                0x0000000000000000       0x36 ./Peripheral/src/ch32x035_iwdg.o
+ .debug_info    0x0000000000000000      0xaaf ./Peripheral/src/ch32x035_iwdg.o
+ .debug_abbrev  0x0000000000000000      0x271 ./Peripheral/src/ch32x035_iwdg.o
+ .debug_aranges
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_iwdg.o
+ .debug_ranges  0x0000000000000000       0x38 ./Peripheral/src/ch32x035_iwdg.o
+ .debug_line    0x0000000000000000      0x3d0 ./Peripheral/src/ch32x035_iwdg.o
+ .debug_str     0x0000000000000000      0x6c0 ./Peripheral/src/ch32x035_iwdg.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_iwdg.o
+ .debug_frame   0x0000000000000000       0xd0 ./Peripheral/src/ch32x035_iwdg.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_misc.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_misc.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_misc.o
+ .text.NVIC_Init
+                0x0000000000000000      0x2e4 ./Peripheral/src/ch32x035_misc.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_opa.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_opa.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_opa.o
+ .sbss.CTLR2_tmp
+                0x0000000000000000        0x4 ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_Unlock
+                0x0000000000000000       0x2a ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_Lock
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_POLL_Unlock
+                0x0000000000000000       0x2a ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_POLL_Lock
+                0x0000000000000000       0x28 ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_CMP_Unlock
+                0x0000000000000000       0x2a ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_CMP_Lock
+                0x0000000000000000       0x4c ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_Init
+                0x0000000000000000      0x208 ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_StructInit
+                0x0000000000000000       0x82 ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_Cmd  0x0000000000000000       0x5c ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_CMP_Init
+                0x0000000000000000      0x118 ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_CMP_StructInit
+                0x0000000000000000       0x3a ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_CMP_Cmd
+                0x0000000000000000       0x7a ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_GetFlagStatus
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_opa.o
+ .text.OPA_ClearFlag
+                0x0000000000000000       0x3a ./Peripheral/src/ch32x035_opa.o
+ .debug_info    0x0000000000000000     0x10a3 ./Peripheral/src/ch32x035_opa.o
+ .debug_abbrev  0x0000000000000000      0x2a8 ./Peripheral/src/ch32x035_opa.o
+ .debug_aranges
+                0x0000000000000000       0x88 ./Peripheral/src/ch32x035_opa.o
+ .debug_ranges  0x0000000000000000       0x78 ./Peripheral/src/ch32x035_opa.o
+ .debug_line    0x0000000000000000      0xa46 ./Peripheral/src/ch32x035_opa.o
+ .debug_str     0x0000000000000000      0xc11 ./Peripheral/src/ch32x035_opa.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_opa.o
+ .debug_frame   0x0000000000000000      0x1d8 ./Peripheral/src/ch32x035_opa.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_pwr.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_pwr.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_pwr.o
+ .text.PWR_DeInit
+                0x0000000000000000       0x2e ./Peripheral/src/ch32x035_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x0000000000000000      0x12c ./Peripheral/src/ch32x035_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x0000000000000000       0x5a ./Peripheral/src/ch32x035_pwr.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_rcc.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_rcc.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_DeInit
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_HSICmd
+                0x0000000000000000       0x38 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_HCLKConfig
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_AHBPeriphResetCmd
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_MCOConfig
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_GetFlagStatus
+                0x0000000000000000       0x78 ./Peripheral/src/ch32x035_rcc.o
+ .text.RCC_ClearFlag
+                0x0000000000000000       0x20 ./Peripheral/src/ch32x035_rcc.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_spi.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_spi.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_DeInit
+                0x0000000000000000       0x3a ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_Init
+                0x0000000000000000       0xbc ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_StructInit
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_Cmd  0x0000000000000000       0x52 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_ITConfig
+                0x0000000000000000       0x8c ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_DMACmd
+                0x0000000000000000       0x68 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_SendData
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_ReceiveData
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x0000000000000000       0x5c ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_SSOutputCmd
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_DataSizeConfig
+                0x0000000000000000       0x56 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_TransmitCRC
+                0x0000000000000000       0x2e ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_CalculateCRC
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_GetCRC
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x0000000000000000       0x5e ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_GetFlagStatus
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x0000000000000000       0x2c ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x0000000000000000       0x98 ./Peripheral/src/ch32x035_spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x0000000000000000       0x40 ./Peripheral/src/ch32x035_spi.o
+ .debug_info    0x0000000000000000     0x1038 ./Peripheral/src/ch32x035_spi.o
+ .debug_abbrev  0x0000000000000000      0x2b3 ./Peripheral/src/ch32x035_spi.o
+ .debug_aranges
+                0x0000000000000000       0xb8 ./Peripheral/src/ch32x035_spi.o
+ .debug_ranges  0x0000000000000000       0xa8 ./Peripheral/src/ch32x035_spi.o
+ .debug_line    0x0000000000000000      0x86a ./Peripheral/src/ch32x035_spi.o
+ .debug_str     0x0000000000000000      0x943 ./Peripheral/src/ch32x035_spi.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_spi.o
+ .debug_frame   0x0000000000000000      0x294 ./Peripheral/src/ch32x035_spi.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_tim.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_tim.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_DeInit
+                0x0000000000000000       0x96 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_TimeBaseInit
+                0x0000000000000000       0xd0 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC1Init
+                0x0000000000000000      0x15a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC2Init
+                0x0000000000000000      0x1a0 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC3Init
+                0x0000000000000000      0x19a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC4Init
+                0x0000000000000000      0x13c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ICInit
+                0x0000000000000000      0x118 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_PWMIConfig
+                0x0000000000000000      0x12c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_BDTRConfig
+                0x0000000000000000       0x78 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x0000000000000000       0x3a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OCStructInit
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ICStructInit
+                0x0000000000000000       0x3a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_BDTRStructInit
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_Cmd  0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x0000000000000000       0x60 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ITConfig
+                0x0000000000000000       0x68 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GenerateEvent
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_DMAConfig
+                0x0000000000000000       0x38 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_DMACmd
+                0x0000000000000000       0x68 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_InternalClockConfig
+                0x0000000000000000       0x2a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x0000000000000000       0x98 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x0000000000000000       0x8c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x0000000000000000       0x62 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ETRConfig
+                0x0000000000000000       0x78 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_PrescalerConfig
+                0x0000000000000000       0x34 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_CounterModeConfig
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectInputTrigger
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x0000000000000000       0xcc ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ForcedOC1Config
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ForcedOC2Config
+                0x0000000000000000       0x54 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ForcedOC3Config
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ForcedOC4Config
+                0x0000000000000000       0x54 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectCOM
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectCCDMA
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_CCPreloadControl
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x0000000000000000       0x56 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x0000000000000000       0x56 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC1FastConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC2FastConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC3FastConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC4FastConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ClearOC1Ref
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ClearOC2Ref
+                0x0000000000000000       0x54 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ClearOC3Ref
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ClearOC4Ref
+                0x0000000000000000       0x54 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x0000000000000000       0x48 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x0000000000000000       0x56 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x0000000000000000       0x54 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_CCxCmd
+                0x0000000000000000       0x82 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_CCxNCmd
+                0x0000000000000000       0x82 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectOCxM
+                0x0000000000000000      0x100 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectHallSensor
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectSlaveMode
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetCounter
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetAutoreload
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetCompare1
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetCompare2
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetCompare3
+                0x0000000000000000       0x22 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetCompare4
+                0x0000000000000000       0x24 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x0000000000000000       0x5c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x0000000000000000       0x5c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_SetClockDivision
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetCapture1
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetCapture2
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetCapture3
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetCapture4
+                0x0000000000000000       0x1e ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetCounter
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetPrescaler
+                0x0000000000000000       0x1c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetFlagStatus
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ClearFlag
+                0x0000000000000000       0x2c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_GetITStatus
+                0x0000000000000000       0x6c ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_ClearITPendingBit
+                0x0000000000000000       0x2c ./Peripheral/src/ch32x035_tim.o
+ .text.TI1_Config
+                0x0000000000000000      0x10a ./Peripheral/src/ch32x035_tim.o
+ .text.TI2_Config
+                0x0000000000000000      0x12a ./Peripheral/src/ch32x035_tim.o
+ .text.TI3_Config
+                0x0000000000000000      0x122 ./Peripheral/src/ch32x035_tim.o
+ .text.TI4_Config
+                0x0000000000000000      0x136 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_CaptureModeCmd
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_IndicateCaptureLevelCmd
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC12_SupersedeModeCmd
+                0x0000000000000000       0x86 ./Peripheral/src/ch32x035_tim.o
+ .text.TIM_OC34_SupersedeModeCmd
+                0x0000000000000000       0x86 ./Peripheral/src/ch32x035_tim.o
+ .debug_info    0x0000000000000000     0x289f ./Peripheral/src/ch32x035_tim.o
+ .debug_abbrev  0x0000000000000000      0x2fd ./Peripheral/src/ch32x035_tim.o
+ .debug_aranges
+                0x0000000000000000      0x310 ./Peripheral/src/ch32x035_tim.o
+ .debug_ranges  0x0000000000000000      0x300 ./Peripheral/src/ch32x035_tim.o
+ .debug_line    0x0000000000000000     0x21a7 ./Peripheral/src/ch32x035_tim.o
+ .debug_str     0x0000000000000000     0x1373 ./Peripheral/src/ch32x035_tim.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_tim.o
+ .debug_frame   0x0000000000000000      0xc34 ./Peripheral/src/ch32x035_tim.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_usart.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_usart.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_DeInit
+                0x0000000000000000       0xc8 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_StructInit
+                0x0000000000000000       0x46 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_ClockInit
+                0x0000000000000000       0x82 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_ClockStructInit
+                0x0000000000000000       0x32 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_ITConfig
+                0x0000000000000000       0xc4 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_DMACmd
+                0x0000000000000000       0x68 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_SetAddress
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_WakeUpConfig
+                0x0000000000000000       0x56 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_LINCmd
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_ReceiveData
+                0x0000000000000000       0x24 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_SendBreak
+                0x0000000000000000       0x2c ./Peripheral/src/ch32x035_usart.o
+ .text.USART_SetGuardTime
+                0x0000000000000000       0x5a ./Peripheral/src/ch32x035_usart.o
+ .text.USART_SetPrescaler
+                0x0000000000000000       0x54 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_SmartCardCmd
+                0x0000000000000000       0x52 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_SmartCardNACKCmd
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_HalfDuplexCmd
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_IrDAConfig
+                0x0000000000000000       0x4e ./Peripheral/src/ch32x035_usart.o
+ .text.USART_IrDACmd
+                0x0000000000000000       0x50 ./Peripheral/src/ch32x035_usart.o
+ .text.USART_ClearFlag
+                0x0000000000000000       0x2c ./Peripheral/src/ch32x035_usart.o
+ .text.USART_GetITStatus
+                0x0000000000000000       0xfa ./Peripheral/src/ch32x035_usart.o
+ .text.USART_ClearITPendingBit
+                0x0000000000000000       0x4c ./Peripheral/src/ch32x035_usart.o
+ .text          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_wwdg.o
+ .data          0x0000000000000000        0x0 ./Peripheral/src/ch32x035_wwdg.o
+ .bss           0x0000000000000000        0x0 ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_DeInit
+                0x0000000000000000       0x32 ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_SetPrescaler
+                0x0000000000000000       0x44 ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_SetWindowValue
+                0x0000000000000000       0x4a ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_EnableIT
+                0x0000000000000000       0x26 ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_SetCounter
+                0x0000000000000000       0x26 ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_Enable
+                0x0000000000000000       0x2a ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_GetFlagStatus
+                0x0000000000000000       0x18 ./Peripheral/src/ch32x035_wwdg.o
+ .text.WWDG_ClearFlag
+                0x0000000000000000       0x1a ./Peripheral/src/ch32x035_wwdg.o
+ .debug_info    0x0000000000000000      0xae1 ./Peripheral/src/ch32x035_wwdg.o
+ .debug_abbrev  0x0000000000000000      0x26f ./Peripheral/src/ch32x035_wwdg.o
+ .debug_aranges
+                0x0000000000000000       0x58 ./Peripheral/src/ch32x035_wwdg.o
+ .debug_ranges  0x0000000000000000       0x48 ./Peripheral/src/ch32x035_wwdg.o
+ .debug_line    0x0000000000000000      0x45c ./Peripheral/src/ch32x035_wwdg.o
+ .debug_str     0x0000000000000000      0x6bc ./Peripheral/src/ch32x035_wwdg.o
+ .comment       0x0000000000000000       0x34 ./Peripheral/src/ch32x035_wwdg.o
+ .debug_frame   0x0000000000000000      0x114 ./Peripheral/src/ch32x035_wwdg.o
+ .text          0x0000000000000000        0x0 ./Debug/debug.o
+ .data          0x0000000000000000        0x0 ./Debug/debug.o
+ .bss           0x0000000000000000        0x0 ./Debug/debug.o
+ .text.SDI_Printf_Enable
+                0x0000000000000000       0x30 ./Debug/debug.o
+ .text          0x0000000000000000        0x0 ./Core/core_riscv.o
+ .data          0x0000000000000000        0x0 ./Core/core_riscv.o
+ .bss           0x0000000000000000        0x0 ./Core/core_riscv.o
+ .text.__get_MSTATUS
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__set_MSTATUS
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MISA
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__set_MISA
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MTVEC
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__set_MTVEC
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MSCRATCH
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__set_MSCRATCH
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MEPC
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__set_MEPC
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MCAUSE
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__set_MCAUSE
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MTVAL
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__set_MTVAL
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MVENDORID
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MARCHID
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MIMPID
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_MHARTID
+                0x0000000000000000       0x1a ./Core/core_riscv.o
+ .text.__get_SP
+                0x0000000000000000       0x18 ./Core/core_riscv.o
+ .debug_info    0x0000000000000000      0x389 ./Core/core_riscv.o
+ .debug_abbrev  0x0000000000000000       0xe0 ./Core/core_riscv.o
+ .debug_aranges
+                0x0000000000000000       0xb0 ./Core/core_riscv.o
+ .debug_ranges  0x0000000000000000       0xa0 ./Core/core_riscv.o
+ .debug_line    0x0000000000000000      0x42e ./Core/core_riscv.o
+ .debug_str     0x0000000000000000      0x2bd ./Core/core_riscv.o
+ .comment       0x0000000000000000       0x34 ./Core/core_riscv.o
+ .debug_frame   0x0000000000000000      0x270 ./Core/core_riscv.o
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x40 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x16 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000       0x12 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x0000000000000000        0x2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x1a c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x1a c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x60 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x2c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x18 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x306 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000000000000000       0x60 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .text.memmove  0x0000000000000000       0x46 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000000000       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .text._realloc_r
+                0x0000000000000000       0x72 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000000000       0x40 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x2c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000      0x10c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .text._malloc_usable_size_r
+                0x0000000000000000       0x14 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x0000000000000000       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-msizer.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(fstat.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(fstat.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(fstat.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(isatty.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(isatty.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(isatty.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(lseek.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(lseek.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(lseek.o)
+ .text          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
+ .data          0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
+ .bss           0x0000000000000000        0x0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x000000000000f800 xr
+RAM              0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./pc_cmd/emul_line_pc_cmd.o
+LOAD ./calc_crc/calc_crc.o
+LOAD ./brd/baloo_emul_line_brd.o
+LOAD ./User/ch32x035_it.o
+LOAD ./User/ch32x035_usbfs_device.o
+LOAD ./User/emul_line.o
+LOAD ./User/main.o
+LOAD ./User/system_ch32x035.o
+LOAD ./User/usb_desc.o
+LOAD ./Startup/startup_ch32x035.o
+LOAD ./Peripheral/src/ch32x035_adc.o
+LOAD ./Peripheral/src/ch32x035_awu.o
+LOAD ./Peripheral/src/ch32x035_dbgmcu.o
+LOAD ./Peripheral/src/ch32x035_dma.o
+LOAD ./Peripheral/src/ch32x035_exti.o
+LOAD ./Peripheral/src/ch32x035_flash.o
+LOAD ./Peripheral/src/ch32x035_gpio.o
+LOAD ./Peripheral/src/ch32x035_i2c.o
+LOAD ./Peripheral/src/ch32x035_iwdg.o
+LOAD ./Peripheral/src/ch32x035_misc.o
+LOAD ./Peripheral/src/ch32x035_opa.o
+LOAD ./Peripheral/src/ch32x035_pwr.o
+LOAD ./Peripheral/src/ch32x035_rcc.o
+LOAD ./Peripheral/src/ch32x035_spi.o
+LOAD ./Peripheral/src/ch32x035_tim.o
+LOAD ./Peripheral/src/ch32x035_usart.o
+LOAD ./Peripheral/src/ch32x035_wwdg.o
+LOAD ./Debug/debug.o
+LOAD ./Core/core_riscv.o
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+START GROUP
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a
+END GROUP
+START GROUP
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/rv32imacxw/ilp32\libgcc.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libc_nano.a
+LOAD c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a
+END GROUP
+                0x0000000000000800                __stack_size = 0x800
+                [!provide]                        PROVIDE (_stack_size = __stack_size)
+
+.init           0x0000000000000000        0x4
+                0x0000000000000000                _sinit = .
+                0x0000000000000000                . = ALIGN (0x4)
+ *(SORT_NONE(.init))
+ .init          0x0000000000000000        0x4 ./Startup/startup_ch32x035.o
+                0x0000000000000000                _start
+                0x0000000000000004                . = ALIGN (0x4)
+                0x0000000000000004                _einit = .
+
+.vector         0x0000000000000004       0xfc
+ *(.vector)
+ .vector        0x0000000000000004       0xdc ./Startup/startup_ch32x035.o
+                0x0000000000000100                . = ALIGN (0x40)
+ *fill*         0x00000000000000e0       0x20 
+
+.text           0x0000000000000100     0x43fc
+                0x0000000000000100                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000000000100       0xa8 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memset.o)
+                0x0000000000000100                memset
+ *(.text.*)
+ .text.check_cmd
+                0x00000000000001a8       0x96 ./pc_cmd/emul_line_pc_cmd.o
+                0x00000000000001a8                check_cmd
+ .text.wr_cmd   0x000000000000023e      0x10c ./pc_cmd/emul_line_pc_cmd.o
+                0x000000000000023e                wr_cmd
+ .text.rd_cmd   0x000000000000034a       0x70 ./pc_cmd/emul_line_pc_cmd.o
+                0x000000000000034a                rd_cmd
+ .text.parse_cmd
+                0x00000000000003ba      0x186 ./pc_cmd/emul_line_pc_cmd.o
+                0x00000000000003ba                parse_cmd
+ .text.Calc_CRC16
+                0x0000000000000540       0x80 ./calc_crc/calc_crc.o
+                0x0000000000000540                Calc_CRC16
+ .text.gpio_init
+                0x00000000000005c0      0x1fc ./brd/baloo_emul_line_brd.o
+                0x00000000000005c0                gpio_init
+ .text.board_init
+                0x00000000000007bc       0x14 ./brd/baloo_emul_line_brd.o
+                0x00000000000007bc                board_init
+ .text.put_out0
+                0x00000000000007d0       0x3a ./brd/baloo_emul_line_brd.o
+                0x00000000000007d0                put_out0
+ .text.put_out1
+                0x000000000000080a       0x3a ./brd/baloo_emul_line_brd.o
+                0x000000000000080a                put_out1
+ .text.put_out2
+                0x0000000000000844       0x42 ./brd/baloo_emul_line_brd.o
+                0x0000000000000844                put_out2
+ .text.put_out3
+                0x0000000000000886       0x4a ./brd/baloo_emul_line_brd.o
+                0x0000000000000886                put_out3
+ .text.put_out4
+                0x00000000000008d0       0x42 ./brd/baloo_emul_line_brd.o
+                0x00000000000008d0                put_out4
+ .text.put_out5
+                0x0000000000000912       0x42 ./brd/baloo_emul_line_brd.o
+                0x0000000000000912                put_out5
+ .text.put_out6
+                0x0000000000000954       0x42 ./brd/baloo_emul_line_brd.o
+                0x0000000000000954                put_out6
+ .text.get_inp  0x0000000000000996       0xd4 ./brd/baloo_emul_line_brd.o
+                0x0000000000000996                get_inp
+ .text.put_out_n
+                0x0000000000000a6a       0x84 ./brd/baloo_emul_line_brd.o
+                0x0000000000000a6a                put_out_n
+ .text.set_out_n
+                0x0000000000000aee       0xb8 ./brd/baloo_emul_line_brd.o
+                0x0000000000000aee                set_out_n
+ .text.clr_out_n
+                0x0000000000000ba6       0xb8 ./brd/baloo_emul_line_brd.o
+                0x0000000000000ba6                clr_out_n
+ .text.NMI_Handler
+                0x0000000000000c5e        0x8 ./User/ch32x035_it.o
+                0x0000000000000c5e                NMI_Handler
+ .text.HardFault_Handler
+                0x0000000000000c66        0x8 ./User/ch32x035_it.o
+                0x0000000000000c66                HardFault_Handler
+ .text.USBFS_RCC_Init
+                0x0000000000000c6e       0x22 ./User/ch32x035_usbfs_device.o
+                0x0000000000000c6e                USBFS_RCC_Init
+ .text.USBFS_Device_Endp_Init
+                0x0000000000000c90       0xd6 ./User/ch32x035_usbfs_device.o
+                0x0000000000000c90                USBFS_Device_Endp_Init
+ .text.GPIO_USB_INIT
+                0x0000000000000d66       0x5e ./User/ch32x035_usbfs_device.o
+                0x0000000000000d66                GPIO_USB_INIT
+ .text.USBFS_Device_Init
+                0x0000000000000dc4      0x120 ./User/ch32x035_usbfs_device.o
+                0x0000000000000dc4                USBFS_Device_Init
+ .text.USBFS_Endp_DataUp
+                0x0000000000000ee4      0x2b4 ./User/ch32x035_usbfs_device.o
+                0x0000000000000ee4                USBFS_Endp_DataUp
+ .text.USBFS_IRQHandler
+                0x0000000000001198      0xbca ./User/ch32x035_usbfs_device.o
+                0x0000000000001198                USBFS_IRQHandler
+ .text.RCC_Configuration
+                0x0000000000001d62       0x36 ./User/emul_line.o
+                0x0000000000001d62                RCC_Configuration
+ .text.send_to_usb
+                0x0000000000001d98       0x9a ./User/emul_line.o
+                0x0000000000001d98                send_to_usb
+ .text.check_usb_data_rdy
+                0x0000000000001e32       0x16 ./User/emul_line.o
+                0x0000000000001e32                check_usb_data_rdy
+ .text.init_cdc_usb
+                0x0000000000001e48       0x44 ./User/emul_line.o
+                0x0000000000001e48                init_cdc_usb
+ .text.main     0x0000000000001e8c      0x122 ./User/main.o
+                0x0000000000001e8c                main
+ .text.SystemInit
+                0x0000000000001fae       0x4a ./User/system_ch32x035.o
+                0x0000000000001fae                SystemInit
+ .text.SystemCoreClockUpdate
+                0x0000000000001ff8       0x80 ./User/system_ch32x035.o
+                0x0000000000001ff8                SystemCoreClockUpdate
+ .text.SetSysClock
+                0x0000000000002078       0x14 ./User/system_ch32x035.o
+ .text.SetSysClockTo48_HSI
+                0x000000000000208c       0x48 ./User/system_ch32x035.o
+ .text.vector_handler
+                0x00000000000020d4        0x2 ./Startup/startup_ch32x035.o
+                0x00000000000020d4                TIM1_CC_IRQHandler
+                0x00000000000020d4                TIM2_UP_IRQHandler
+                0x00000000000020d4                USBPD_IRQHandler
+                0x00000000000020d4                SysTick_Handler
+                0x00000000000020d4                PVD_IRQHandler
+                0x00000000000020d4                EXTI25_16_IRQHandler
+                0x00000000000020d4                Break_Point_Handler
+                0x00000000000020d4                TIM2_TRG_COM_IRQHandler
+                0x00000000000020d4                TIM2_CC_IRQHandler
+                0x00000000000020d4                SPI1_IRQHandler
+                0x00000000000020d4                AWU_IRQHandler
+                0x00000000000020d4                EXTI7_0_IRQHandler
+                0x00000000000020d4                Ecall_M_Mode_Handler
+                0x00000000000020d4                DMA1_Channel4_IRQHandler
+                0x00000000000020d4                ADC1_IRQHandler
+                0x00000000000020d4                TIM2_BRK_IRQHandler
+                0x00000000000020d4                USART3_IRQHandler
+                0x00000000000020d4                DMA1_Channel7_IRQHandler
+                0x00000000000020d4                USBPDWakeUp_IRQHandler
+                0x00000000000020d4                EXTI15_8_IRQHandler
+                0x00000000000020d4                I2C1_EV_IRQHandler
+                0x00000000000020d4                USART4_IRQHandler
+                0x00000000000020d4                DMA1_Channel6_IRQHandler
+                0x00000000000020d4                TIM3_IRQHandler
+                0x00000000000020d4                TIM1_TRG_COM_IRQHandler
+                0x00000000000020d4                DMA1_Channel1_IRQHandler
+                0x00000000000020d4                DMA1_Channel8_IRQHandler
+                0x00000000000020d4                PIOC_IRQHandler
+                0x00000000000020d4                DMA1_Channel5_IRQHandler
+                0x00000000000020d4                DMA1_Channel3_IRQHandler
+                0x00000000000020d4                TIM1_UP_IRQHandler
+                0x00000000000020d4                WWDG_IRQHandler
+                0x00000000000020d4                Ecall_U_Mode_Handler
+                0x00000000000020d4                SW_Handler
+                0x00000000000020d4                TIM1_BRK_IRQHandler
+                0x00000000000020d4                OPA_IRQHandler
+                0x00000000000020d4                USART2_IRQHandler
+                0x00000000000020d4                DMA1_Channel2_IRQHandler
+                0x00000000000020d4                FLASH_IRQHandler
+                0x00000000000020d4                USBFSWakeUp_IRQHandler
+                0x00000000000020d4                USART1_IRQHandler
+                0x00000000000020d4                I2C1_ER_IRQHandler
+ .text.handle_reset
+                0x00000000000020d6       0x86 ./Startup/startup_ch32x035.o
+                0x00000000000020d6                handle_reset
+ .text.DBGMCU_GetCHIPID
+                0x000000000000215c       0x18 ./Peripheral/src/ch32x035_dbgmcu.o
+                0x000000000000215c                DBGMCU_GetCHIPID
+ .text.GPIO_Init
+                0x0000000000002174      0x394 ./Peripheral/src/ch32x035_gpio.o
+                0x0000000000002174                GPIO_Init
+ .text.GPIO_ReadInputDataBit
+                0x0000000000002508       0x38 ./Peripheral/src/ch32x035_gpio.o
+                0x0000000000002508                GPIO_ReadInputDataBit
+ .text.GPIO_WriteBit
+                0x0000000000002540       0x4a ./Peripheral/src/ch32x035_gpio.o
+                0x0000000000002540                GPIO_WriteBit
+ .text.GPIO_PinRemapConfig
+                0x000000000000258a      0x1dc ./Peripheral/src/ch32x035_gpio.o
+                0x000000000000258a                GPIO_PinRemapConfig
+ .text.NVIC_PriorityGroupConfig
+                0x0000000000002766       0x1a ./Peripheral/src/ch32x035_misc.o
+                0x0000000000002766                NVIC_PriorityGroupConfig
+ .text.PWR_PVDLevelConfig
+                0x0000000000002780       0x44 ./Peripheral/src/ch32x035_pwr.o
+                0x0000000000002780                PWR_PVDLevelConfig
+ .text.PWR_GetFlagStatus
+                0x00000000000027c4       0x34 ./Peripheral/src/ch32x035_pwr.o
+                0x00000000000027c4                PWR_GetFlagStatus
+ .text.PWR_VDD_SupplyVoltage
+                0x00000000000027f8       0x40 ./Peripheral/src/ch32x035_pwr.o
+                0x00000000000027f8                PWR_VDD_SupplyVoltage
+ .text.RCC_GetClocksFreq
+                0x0000000000002838       0xa6 ./Peripheral/src/ch32x035_rcc.o
+                0x0000000000002838                RCC_GetClocksFreq
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000000028de       0x46 ./Peripheral/src/ch32x035_rcc.o
+                0x00000000000028de                RCC_AHBPeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x0000000000002924       0x46 ./Peripheral/src/ch32x035_rcc.o
+                0x0000000000002924                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x000000000000296a       0x46 ./Peripheral/src/ch32x035_rcc.o
+                0x000000000000296a                RCC_APB1PeriphClockCmd
+ .text.USART_Init
+                0x00000000000029b0      0x1b2 ./Peripheral/src/ch32x035_usart.o
+                0x00000000000029b0                USART_Init
+ .text.USART_Cmd
+                0x0000000000002b62       0x58 ./Peripheral/src/ch32x035_usart.o
+                0x0000000000002b62                USART_Cmd
+ .text.USART_SendData
+                0x0000000000002bba       0x2c ./Peripheral/src/ch32x035_usart.o
+                0x0000000000002bba                USART_SendData
+ .text.USART_GetFlagStatus
+                0x0000000000002be6       0x44 ./Peripheral/src/ch32x035_usart.o
+                0x0000000000002be6                USART_GetFlagStatus
+ .text.Delay_Init
+                0x0000000000002c2a       0x46 ./Debug/debug.o
+                0x0000000000002c2a                Delay_Init
+ .text.Delay_Us
+                0x0000000000002c70       0x84 ./Debug/debug.o
+                0x0000000000002c70                Delay_Us
+ .text.Delay_Ms
+                0x0000000000002cf4       0x84 ./Debug/debug.o
+                0x0000000000002cf4                Delay_Ms
+ .text.USART_Printf_Init
+                0x0000000000002d78       0x7a ./Debug/debug.o
+                0x0000000000002d78                USART_Printf_Init
+ .text._write   0x0000000000002df2       0x76 ./Debug/debug.o
+                0x0000000000002df2                _write
+ .text._sbrk    0x0000000000002e68       0x5a ./Debug/debug.o
+                0x0000000000002e68                _sbrk
+ .text.memcpy   0x0000000000002ec2       0xb2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memcpy.o)
+                0x0000000000002ec2                memcpy
+ .text.printf   0x0000000000002f74       0x40 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o)
+                0x0000000000002f74                iprintf
+                0x0000000000002f74                printf
+ .text._puts_r  0x0000000000002fb4       0xd4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o)
+                0x0000000000002fb4                _puts_r
+ .text.puts     0x0000000000003088        0xa c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o)
+                0x0000000000003088                puts
+ .text.__swbuf_r
+                0x0000000000003092       0xbc c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o)
+                0x0000000000003092                __swbuf_r
+ .text.__swsetup_r
+                0x000000000000314e       0xfc c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o)
+                0x000000000000314e                __swsetup_r
+ .text.__sflush_r
+                0x000000000000324a      0x130 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+                0x000000000000324a                __sflush_r
+ .text._fflush_r
+                0x000000000000337a       0x64 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+                0x000000000000337a                _fflush_r
+ .text.std      0x00000000000033de       0x66 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x0000000000003444        0xa c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000003444                _cleanup_r
+ .text.__sfmoreglue
+                0x000000000000344e       0x46 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x000000000000344e                __sfmoreglue
+ .text.__sinit  0x0000000000003494       0x66 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000003494                __sinit
+ .text.__sfp    0x00000000000034fa       0x9c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x00000000000034fa                __sfp
+ .text._fwalk_reent
+                0x0000000000003596       0x6a c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fwalk.o)
+                0x0000000000003596                _fwalk_reent
+ .text.__swhatbuf_r
+                0x0000000000003600       0x58 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o)
+                0x0000000000003600                __swhatbuf_r
+ .text.__smakebuf_r
+                0x0000000000003658       0x90 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o)
+                0x0000000000003658                __smakebuf_r
+ .text._free_r  0x00000000000036e8       0xa8 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+                0x00000000000036e8                _free_r
+ .text._malloc_r
+                0x0000000000003790       0xd4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000003790                _malloc_r
+ .text.__sfputc_r
+                0x0000000000003864       0x28 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x000000000000388c       0x40 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+                0x000000000000388c                __sfputs_r
+ .text._vfprintf_r
+                0x00000000000038cc      0x286 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000000038cc                _vfprintf_r
+                0x00000000000038cc                _vfiprintf_r
+ .text._printf_common
+                0x0000000000003b52      0x10c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000003b52                _printf_common
+ .text._printf_i
+                0x0000000000003c5e      0x2a2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000000003c5e                _printf_i
+ .text._sbrk_r  0x0000000000003f00       0x2a c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+                0x0000000000003f00                _sbrk_r
+ .text.__sread  0x0000000000003f2a       0x2c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x0000000000003f2a                __sread
+ .text.__swrite
+                0x0000000000003f56       0x48 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x0000000000003f56                __swrite
+ .text.__sseek  0x0000000000003f9e       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x0000000000003f9e                __sseek
+ .text.__sclose
+                0x0000000000003fce        0x6 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+                0x0000000000003fce                __sclose
+ .text._write_r
+                0x0000000000003fd4       0x2e c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-writer.o)
+                0x0000000000003fd4                _write_r
+ .text._close_r
+                0x0000000000004002       0x28 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-closer.o)
+                0x0000000000004002                _close_r
+ .text._fstat_r
+                0x000000000000402a       0x2a c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fstatr.o)
+                0x000000000000402a                _fstat_r
+ .text._isatty_r
+                0x0000000000004054       0x28 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-isattyr.o)
+                0x0000000000004054                _isatty_r
+ .text._lseek_r
+                0x000000000000407c       0x2c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-lseekr.o)
+                0x000000000000407c                _lseek_r
+ .text.memchr   0x00000000000040a8       0x18 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memchr.o)
+                0x00000000000040a8                memchr
+ .text.__malloc_lock
+                0x00000000000040c0        0x2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-mlock.o)
+                0x00000000000040c0                __malloc_lock
+ .text.__malloc_unlock
+                0x00000000000040c2        0x2 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-mlock.o)
+                0x00000000000040c2                __malloc_unlock
+ .text._read_r  0x00000000000040c4       0x2c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-readr.o)
+                0x00000000000040c4                _read_r
+ .text._close   0x00000000000040f0        0xc c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)
+                0x00000000000040f0                _close
+ .text._fstat   0x00000000000040fc        0xc c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(fstat.o)
+                0x00000000000040fc                _fstat
+ .text._isatty  0x0000000000004108        0xc c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(isatty.o)
+                0x0000000000004108                _isatty
+ .text._lseek   0x0000000000004114        0xc c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(lseek.o)
+                0x0000000000004114                _lseek
+ .text._read    0x0000000000004120        0xc c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
+                0x0000000000004120                _read
+ *(.rodata)
+ .rodata        0x000000000000412c       0x3c ./brd/baloo_emul_line_brd.o
+ .rodata        0x0000000000004168       0x2f ./User/main.o
+ *(.rodata*)
+ *fill*         0x0000000000004197        0x1 
+ .rodata.CRC16_Table
+                0x0000000000004198      0x200 ./calc_crc/calc_crc.o
+                0x0000000000004198                CRC16_Table
+ .rodata.USBFS_IRQHandler
+                0x0000000000004398       0x30 ./User/ch32x035_usbfs_device.o
+ .rodata.MyDevDescr
+                0x00000000000043c8       0x12 ./User/usb_desc.o
+                0x00000000000043c8                MyDevDescr
+ *fill*         0x00000000000043da        0x2 
+ .rodata.MyCfgDescr
+                0x00000000000043dc       0x43 ./User/usb_desc.o
+                0x00000000000043dc                MyCfgDescr
+ *fill*         0x000000000000441f        0x1 
+ .rodata.MyManuInfo
+                0x0000000000004420        0xe ./User/usb_desc.o
+                0x0000000000004420                MyManuInfo
+ *fill*         0x000000000000442e        0x2 
+ .rodata.MyProdInfo
+                0x0000000000004430       0x16 ./User/usb_desc.o
+                0x0000000000004430                MyProdInfo
+ *fill*         0x0000000000004446        0x2 
+ .rodata.MySerNumInfo
+                0x0000000000004448       0x16 ./User/usb_desc.o
+                0x0000000000004448                MySerNumInfo
+ *fill*         0x000000000000445e        0x2 
+ .rodata.__sf_fake_stderr
+                0x0000000000004460       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000004460                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x0000000000004480       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x0000000000004480                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x00000000000044a0       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+                0x00000000000044a0                __sf_fake_stdout
+ .rodata._vfprintf_r.str1.4
+                0x00000000000044c0       0x13 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ *fill*         0x00000000000044d3        0x1 
+ .rodata._printf_i.str1.4
+                0x00000000000044d4       0x28 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                                         0x25 (size before relaxing)
+ *(.gnu.linkonce.t.*)
+                0x00000000000044fc                . = ALIGN (0x4)
+
+.rela.dyn       0x00000000000044fc        0x0
+ .rela.init     0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.vector   0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text.handle_reset
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.sdata.curbrk.4332
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._sbrk
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._vfprintf_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._sbrk_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._write_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._close_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._fstat_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._isatty_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._lseek_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._read_r
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._close
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._fstat
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._isatty
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._lseek
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+ .rela.text._read
+                0x00000000000044fc        0x0 ./pc_cmd/emul_line_pc_cmd.o
+
+.fini           0x00000000000044fc        0x0
+ *(SORT_NONE(.fini))
+                0x00000000000044fc                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (_eitcm = .)
+
+.preinit_array  0x00000000000044fc        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00000000000044fc        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000000044fc        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.dalign         0x0000000020000000        0x0 load address 0x00000000000044fc
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                PROVIDE (_data_vma = .)
+
+.dlalign        0x00000000000044fc        0x0
+                0x00000000000044fc                . = ALIGN (0x4)
+                0x00000000000044fc                PROVIDE (_data_lma = .)
+
+.data           0x0000000020000000       0xa0 load address 0x00000000000044fc
+ *(.gnu.linkonce.r.*)
+ *(.data .data.*)
+ .data.AHBPrescTable
+                0x0000000020000000       0x10 ./User/system_ch32x035.o
+                0x0000000020000000                AHBPrescTable
+ .data.APBAHBPrescTable
+                0x0000000020000010       0x10 ./Peripheral/src/ch32x035_rcc.o
+ .data.impure_data
+                0x0000000020000020       0x60 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-impure.o)
+ *(.gnu.linkonce.d.*)
+                0x0000000020000080                . = ALIGN (0x8)
+                0x0000000020000880                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata.SystemCoreClock
+                0x0000000020000080        0x4 ./User/system_ch32x035.o
+                0x0000000020000080                SystemCoreClock
+ .sdata.CFGHR_tmpA
+                0x0000000020000084        0x4 ./Peripheral/src/ch32x035_gpio.o
+                0x0000000020000084                CFGHR_tmpA
+ .sdata.CFGHR_tmpB
+                0x0000000020000088        0x4 ./Peripheral/src/ch32x035_gpio.o
+                0x0000000020000088                CFGHR_tmpB
+ .sdata.CFGHR_tmpC
+                0x000000002000008c        0x4 ./Peripheral/src/ch32x035_gpio.o
+                0x000000002000008c                CFGHR_tmpC
+ .sdata.curbrk.4332
+                0x0000000020000090        0x4 ./Debug/debug.o
+ .sdata._impure_ptr
+                0x0000000020000094        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-impure.o)
+                0x0000000020000094                _impure_ptr
+ *(.sdata2.*)
+ .sdata2.MyLangDescr
+                0x0000000020000098        0x4 ./User/usb_desc.o
+                0x0000000020000098                MyLangDescr
+ .sdata2._global_impure_ptr
+                0x000000002000009c        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-impure.o)
+                0x000000002000009c                _global_impure_ptr
+ *(.gnu.linkonce.s.*)
+                0x00000000200000a0                . = ALIGN (0x8)
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+                0x00000000200000a0                . = ALIGN (0x4)
+                0x00000000200000a0                PROVIDE (_edata = .)
+
+.bss            0x00000000200000a0      0xda0 load address 0x000000000000459c
+                0x00000000200000a0                . = ALIGN (0x4)
+                0x00000000200000a0                PROVIDE (_sbss = .)
+ *(.sbss*)
+ .sbss.pUSBFS_Descr
+                0x00000000200000a0        0x4 ./User/ch32x035_usbfs_device.o
+                0x00000000200000a0                pUSBFS_Descr
+ .sbss.USBFS_SetupReqCode
+                0x00000000200000a4        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000a4                USBFS_SetupReqCode
+ .sbss.USBFS_SetupReqType
+                0x00000000200000a5        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000a5                USBFS_SetupReqType
+ .sbss.USBFS_SetupReqValue
+                0x00000000200000a6        0x2 ./User/ch32x035_usbfs_device.o
+                0x00000000200000a6                USBFS_SetupReqValue
+ .sbss.USBFS_SetupReqIndex
+                0x00000000200000a8        0x2 ./User/ch32x035_usbfs_device.o
+                0x00000000200000a8                USBFS_SetupReqIndex
+ .sbss.USBFS_SetupReqLen
+                0x00000000200000aa        0x2 ./User/ch32x035_usbfs_device.o
+                0x00000000200000aa                USBFS_SetupReqLen
+ .sbss.USBFS_DevConfig
+                0x00000000200000ac        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000ac                USBFS_DevConfig
+ .sbss.USBFS_DevAddr
+                0x00000000200000ad        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000ad                USBFS_DevAddr
+ .sbss.USBFS_DevSleepStatus
+                0x00000000200000ae        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000ae                USBFS_DevSleepStatus
+ .sbss.USBFS_DevEnumStatus
+                0x00000000200000af        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000af                USBFS_DevEnumStatus
+ .sbss.USBFS_Endp_Busy
+                0x00000000200000b0        0x8 ./User/ch32x035_usbfs_device.o
+                0x00000000200000b0                USBFS_Endp_Busy
+ .sbss.Com_Cfg  0x00000000200000b8        0x8 ./User/ch32x035_usbfs_device.o
+                0x00000000200000b8                Com_Cfg
+ .sbss.tst      0x00000000200000c0        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000c0                tst
+ .sbss.ok_tst   0x00000000200000c1        0x1 ./User/ch32x035_usbfs_device.o
+                0x00000000200000c1                ok_tst
+ .sbss.USB_Rx_LoadNum
+                0x00000000200000c2        0x2 ./User/emul_line.o
+                0x00000000200000c2                USB_Rx_LoadNum
+ .sbss.USB_Rx_DealNum
+                0x00000000200000c4        0x2 ./User/emul_line.o
+                0x00000000200000c4                USB_Rx_DealNum
+ .sbss.USB_Rx_RemainNum
+                0x00000000200000c6        0x2 ./User/emul_line.o
+                0x00000000200000c6                USB_Rx_RemainNum
+ .sbss.USB_Down_StopFlag
+                0x00000000200000c8        0x1 ./User/emul_line.o
+                0x00000000200000c8                USB_Down_StopFlag
+ .sbss.usb_rx_len
+                0x00000000200000c9        0x1 ./User/emul_line.o
+                0x00000000200000c9                usb_rx_len
+ *fill*         0x00000000200000ca        0x2 
+ .sbss.NVIC_Priority_Group
+                0x00000000200000cc        0x4 ./Peripheral/src/ch32x035_misc.o
+                0x00000000200000cc                NVIC_Priority_Group
+ .sbss.p_us     0x00000000200000d0        0x1 ./Debug/debug.o
+ *fill*         0x00000000200000d1        0x1 
+ .sbss.p_ms     0x00000000200000d2        0x2 ./Debug/debug.o
+ .sbss.__malloc_free_list
+                0x00000000200000d4        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200000d4                __malloc_free_list
+ .sbss.__malloc_sbrk_start
+                0x00000000200000d8        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200000d8                __malloc_sbrk_start
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ .bss.USBFS_EP0_4Buf
+                0x00000000200000dc       0x40 ./User/ch32x035_usbfs_device.o
+                0x00000000200000dc                USBFS_EP0_4Buf
+ .bss.USBFS_EP1_Buf
+                0x000000002000011c       0x40 ./User/ch32x035_usbfs_device.o
+                0x000000002000011c                USBFS_EP1_Buf
+ .bss.USBFS_EP3_Buf
+                0x000000002000015c       0x40 ./User/ch32x035_usbfs_device.o
+                0x000000002000015c                USBFS_EP3_Buf
+ .bss.USB_Rx_Buf
+                0x000000002000019c      0x400 ./User/emul_line.o
+                0x000000002000019c                USB_Rx_Buf
+ .bss.USB_Tx_Buf
+                0x000000002000059c      0x800 ./User/emul_line.o
+                0x000000002000059c                USB_Tx_Buf
+ .bss.USB_Rx_PackLen
+                0x0000000020000d9c       0x20 ./User/emul_line.o
+                0x0000000020000d9c                USB_Rx_PackLen
+ .bss.usb_rx_b  0x0000000020000dbc       0x40 ./User/emul_line.o
+                0x0000000020000dbc                usb_rx_b
+ .bss.usb_tx_b  0x0000000020000dfc       0x40 ./User/emul_line.o
+                0x0000000020000dfc                usb_tx_b
+ *(.gnu.linkonce.b.*)
+ *(COMMON*)
+ COMMON         0x0000000020000e3c        0x4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+                0x0000000020000e3c                errno
+                0x0000000020000e40                . = ALIGN (0x4)
+                0x0000000020000e40                PROVIDE (_ebss = .)
+                0x0000000020000e40                PROVIDE (_end = _ebss)
+                [!provide]                        PROVIDE (end = .)
+
+.stack          0x0000000020004800      0x800
+                0x0000000020004800                PROVIDE (_heap_end = .)
+                0x0000000020004800                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_susrstack = .)
+                0x0000000020005000                . = (. + __stack_size)
+ *fill*         0x0000000020004800      0x800 
+                0x0000000020005000                PROVIDE (_eusrstack = .)
+OUTPUT(emul_line.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0xd330
+ .debug_info    0x0000000000000000      0xadb ./pc_cmd/emul_line_pc_cmd.o
+ .debug_info    0x0000000000000adb      0x125 ./calc_crc/calc_crc.o
+ .debug_info    0x0000000000000c00      0xca5 ./brd/baloo_emul_line_brd.o
+ .debug_info    0x00000000000018a5      0x962 ./User/ch32x035_it.o
+ .debug_info    0x0000000000002207     0x1826 ./User/ch32x035_usbfs_device.o
+ .debug_info    0x0000000000003a2d     0x1044 ./User/emul_line.o
+ .debug_info    0x0000000000004a71      0xf30 ./User/main.o
+ .debug_info    0x00000000000059a1      0xb45 ./User/system_ch32x035.o
+ .debug_info    0x00000000000064e6      0x9ff ./User/usb_desc.o
+ .debug_info    0x0000000000006ee5       0x22 ./Startup/startup_ch32x035.o
+ .debug_info    0x0000000000006f07      0xa3b ./Peripheral/src/ch32x035_dbgmcu.o
+ .debug_info    0x0000000000007942      0xfc9 ./Peripheral/src/ch32x035_gpio.o
+ .debug_info    0x000000000000890b      0xf4d ./Peripheral/src/ch32x035_misc.o
+ .debug_info    0x0000000000009858      0xdd7 ./Peripheral/src/ch32x035_pwr.o
+ .debug_info    0x000000000000a62f      0xd98 ./Peripheral/src/ch32x035_rcc.o
+ .debug_info    0x000000000000b3c7     0x1277 ./Peripheral/src/ch32x035_usart.o
+ .debug_info    0x000000000000c63e      0xcf2 ./Debug/debug.o
+
+.debug_abbrev   0x0000000000000000     0x28d4
+ .debug_abbrev  0x0000000000000000      0x222 ./pc_cmd/emul_line_pc_cmd.o
+ .debug_abbrev  0x0000000000000222       0xae ./calc_crc/calc_crc.o
+ .debug_abbrev  0x00000000000002d0      0x28c ./brd/baloo_emul_line_brd.o
+ .debug_abbrev  0x000000000000055c      0x1cf ./User/ch32x035_it.o
+ .debug_abbrev  0x000000000000072b      0x3c0 ./User/ch32x035_usbfs_device.o
+ .debug_abbrev  0x0000000000000aeb      0x332 ./User/emul_line.o
+ .debug_abbrev  0x0000000000000e1d      0x29a ./User/main.o
+ .debug_abbrev  0x00000000000010b7      0x255 ./User/system_ch32x035.o
+ .debug_abbrev  0x000000000000130c      0x1c5 ./User/usb_desc.o
+ .debug_abbrev  0x00000000000014d1       0x12 ./Startup/startup_ch32x035.o
+ .debug_abbrev  0x00000000000014e3      0x276 ./Peripheral/src/ch32x035_dbgmcu.o
+ .debug_abbrev  0x0000000000001759      0x315 ./Peripheral/src/ch32x035_gpio.o
+ .debug_abbrev  0x0000000000001a6e      0x2d8 ./Peripheral/src/ch32x035_misc.o
+ .debug_abbrev  0x0000000000001d46      0x318 ./Peripheral/src/ch32x035_pwr.o
+ .debug_abbrev  0x000000000000205e      0x2d1 ./Peripheral/src/ch32x035_rcc.o
+ .debug_abbrev  0x000000000000232f      0x2c2 ./Peripheral/src/ch32x035_usart.o
+ .debug_abbrev  0x00000000000025f1      0x2e3 ./Debug/debug.o
+
+.debug_aranges  0x0000000000000000      0x538
+ .debug_aranges
+                0x0000000000000000       0x38 ./pc_cmd/emul_line_pc_cmd.o
+ .debug_aranges
+                0x0000000000000038       0x20 ./calc_crc/calc_crc.o
+ .debug_aranges
+                0x0000000000000058       0x80 ./brd/baloo_emul_line_brd.o
+ .debug_aranges
+                0x00000000000000d8       0x28 ./User/ch32x035_it.o
+ .debug_aranges
+                0x0000000000000100       0x48 ./User/ch32x035_usbfs_device.o
+ .debug_aranges
+                0x0000000000000148       0x38 ./User/emul_line.o
+ .debug_aranges
+                0x0000000000000180       0x20 ./User/main.o
+ .debug_aranges
+                0x00000000000001a0       0x38 ./User/system_ch32x035.o
+ .debug_aranges
+                0x00000000000001d8       0x18 ./User/usb_desc.o
+ .debug_aranges
+                0x00000000000001f0       0x30 ./Startup/startup_ch32x035.o
+ .debug_aranges
+                0x0000000000000220       0x48 ./Peripheral/src/ch32x035_dbgmcu.o
+ .debug_aranges
+                0x0000000000000268       0x98 ./Peripheral/src/ch32x035_gpio.o
+ .debug_aranges
+                0x0000000000000300       0x28 ./Peripheral/src/ch32x035_misc.o
+ .debug_aranges
+                0x0000000000000328       0x48 ./Peripheral/src/ch32x035_pwr.o
+ .debug_aranges
+                0x0000000000000370       0x88 ./Peripheral/src/ch32x035_rcc.o
+ .debug_aranges
+                0x00000000000003f8       0xf0 ./Peripheral/src/ch32x035_usart.o
+ .debug_aranges
+                0x00000000000004e8       0x50 ./Debug/debug.o
+
+.debug_ranges   0x0000000000000000      0x428
+ .debug_ranges  0x0000000000000000       0x28 ./pc_cmd/emul_line_pc_cmd.o
+ .debug_ranges  0x0000000000000028       0x10 ./calc_crc/calc_crc.o
+ .debug_ranges  0x0000000000000038       0x70 ./brd/baloo_emul_line_brd.o
+ .debug_ranges  0x00000000000000a8       0x18 ./User/ch32x035_it.o
+ .debug_ranges  0x00000000000000c0       0x38 ./User/ch32x035_usbfs_device.o
+ .debug_ranges  0x00000000000000f8       0x28 ./User/emul_line.o
+ .debug_ranges  0x0000000000000120       0x10 ./User/main.o
+ .debug_ranges  0x0000000000000130       0x28 ./User/system_ch32x035.o
+ .debug_ranges  0x0000000000000158       0x28 ./Startup/startup_ch32x035.o
+ .debug_ranges  0x0000000000000180       0x38 ./Peripheral/src/ch32x035_dbgmcu.o
+ .debug_ranges  0x00000000000001b8       0x88 ./Peripheral/src/ch32x035_gpio.o
+ .debug_ranges  0x0000000000000240       0x18 ./Peripheral/src/ch32x035_misc.o
+ .debug_ranges  0x0000000000000258       0x38 ./Peripheral/src/ch32x035_pwr.o
+ .debug_ranges  0x0000000000000290       0x78 ./Peripheral/src/ch32x035_rcc.o
+ .debug_ranges  0x0000000000000308       0xe0 ./Peripheral/src/ch32x035_usart.o
+ .debug_ranges  0x00000000000003e8       0x40 ./Debug/debug.o
+
+.debug_line     0x0000000000000000     0x6b52
+ .debug_line    0x0000000000000000      0x59f ./pc_cmd/emul_line_pc_cmd.o
+ .debug_line    0x000000000000059f      0x188 ./calc_crc/calc_crc.o
+ .debug_line    0x0000000000000727      0x92d ./brd/baloo_emul_line_brd.o
+ .debug_line    0x0000000000001054      0x221 ./User/ch32x035_it.o
+ .debug_line    0x0000000000001275     0x1541 ./User/ch32x035_usbfs_device.o
+ .debug_line    0x00000000000027b6      0x403 ./User/emul_line.o
+ .debug_line    0x0000000000002bb9      0x3e4 ./User/main.o
+ .debug_line    0x0000000000002f9d      0x342 ./User/system_ch32x035.o
+ .debug_line    0x00000000000032df      0x1f0 ./User/usb_desc.o
+ .debug_line    0x00000000000034cf      0x149 ./Startup/startup_ch32x035.o
+ .debug_line    0x0000000000003618      0x378 ./Peripheral/src/ch32x035_dbgmcu.o
+ .debug_line    0x0000000000003990      0xdac ./Peripheral/src/ch32x035_gpio.o
+ .debug_line    0x000000000000473c      0x634 ./Peripheral/src/ch32x035_misc.o
+ .debug_line    0x0000000000004d70      0x505 ./Peripheral/src/ch32x035_pwr.o
+ .debug_line    0x0000000000005275      0x745 ./Peripheral/src/ch32x035_rcc.o
+ .debug_line    0x00000000000059ba      0xc17 ./Peripheral/src/ch32x035_usart.o
+ .debug_line    0x00000000000065d1      0x581 ./Debug/debug.o
+
+.debug_str      0x0000000000000000     0x1dfd
+ .debug_str     0x0000000000000000      0x56d ./pc_cmd/emul_line_pc_cmd.o
+                                        0x5e7 (size before relaxing)
+ .debug_str     0x000000000000056d       0x2e ./calc_crc/calc_crc.o
+                                        0x1be (size before relaxing)
+ .debug_str     0x000000000000059b      0x1dd ./brd/baloo_emul_line_brd.o
+                                        0x767 (size before relaxing)
+ .debug_str     0x0000000000000778       0x34 ./User/ch32x035_it.o
+                                        0x5ac (size before relaxing)
+ .debug_str     0x00000000000007ac      0x875 ./User/ch32x035_usbfs_device.o
+                                        0xf3c (size before relaxing)
+ .debug_str     0x0000000000001021       0x57 ./User/emul_line.o
+                                        0xb20 (size before relaxing)
+ .debug_str     0x0000000000001078       0x14 ./User/main.o
+                                        0xad3 (size before relaxing)
+ .debug_str     0x000000000000108c       0xdd ./User/system_ch32x035.o
+                                        0x6aa (size before relaxing)
+ .debug_str     0x0000000000001169       0x13 ./User/usb_desc.o
+                                        0x5e2 (size before relaxing)
+ .debug_str     0x000000000000117c       0x55 ./Startup/startup_ch32x035.o
+                                         0x87 (size before relaxing)
+ .debug_str     0x00000000000011d1       0xc3 ./Peripheral/src/ch32x035_dbgmcu.o
+                                        0x667 (size before relaxing)
+ .debug_str     0x0000000000001294      0x21a ./Peripheral/src/ch32x035_gpio.o
+                                        0x93f (size before relaxing)
+ .debug_str     0x00000000000014ae      0x139 ./Peripheral/src/ch32x035_misc.o
+                                        0xa39 (size before relaxing)
+ .debug_str     0x00000000000015e7       0xfa ./Peripheral/src/ch32x035_pwr.o
+                                        0x7aa (size before relaxing)
+ .debug_str     0x00000000000016e1      0x21d ./Peripheral/src/ch32x035_rcc.o
+                                        0x871 (size before relaxing)
+ .debug_str     0x00000000000018fe      0x420 ./Peripheral/src/ch32x035_usart.o
+                                        0xaba (size before relaxing)
+ .debug_str     0x0000000000001d1e       0xdf ./Debug/debug.o
+                                        0x78f (size before relaxing)
+
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 ./pc_cmd/emul_line_pc_cmd.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 ./calc_crc/calc_crc.o
+ .comment       0x0000000000000033       0x34 ./brd/baloo_emul_line_brd.o
+ .comment       0x0000000000000033       0x34 ./User/ch32x035_it.o
+ .comment       0x0000000000000033       0x34 ./User/ch32x035_usbfs_device.o
+ .comment       0x0000000000000033       0x34 ./User/emul_line.o
+ .comment       0x0000000000000033       0x34 ./User/main.o
+ .comment       0x0000000000000033       0x34 ./User/system_ch32x035.o
+ .comment       0x0000000000000033       0x34 ./User/usb_desc.o
+ .comment       0x0000000000000033       0x34 ./Peripheral/src/ch32x035_dbgmcu.o
+ .comment       0x0000000000000033       0x34 ./Peripheral/src/ch32x035_gpio.o
+ .comment       0x0000000000000033       0x34 ./Peripheral/src/ch32x035_misc.o
+ .comment       0x0000000000000033       0x34 ./Peripheral/src/ch32x035_pwr.o
+ .comment       0x0000000000000033       0x34 ./Peripheral/src/ch32x035_rcc.o
+ .comment       0x0000000000000033       0x34 ./Peripheral/src/ch32x035_usart.o
+ .comment       0x0000000000000033       0x34 ./Debug/debug.o
+
+.debug_frame    0x0000000000000000     0x18fc
+ .debug_frame   0x0000000000000000       0xac ./pc_cmd/emul_line_pc_cmd.o
+ .debug_frame   0x00000000000000ac       0x30 ./calc_crc/calc_crc.o
+ .debug_frame   0x00000000000000dc      0x1e8 ./brd/baloo_emul_line_brd.o
+ .debug_frame   0x00000000000002c4       0x48 ./User/ch32x035_it.o
+ .debug_frame   0x000000000000030c       0xec ./User/ch32x035_usbfs_device.o
+ .debug_frame   0x00000000000003f8       0x98 ./User/emul_line.o
+ .debug_frame   0x0000000000000490       0x2c ./User/main.o
+ .debug_frame   0x00000000000004bc       0x98 ./User/system_ch32x035.o
+ .debug_frame   0x0000000000000554       0xd4 ./Peripheral/src/ch32x035_dbgmcu.o
+ .debug_frame   0x0000000000000628      0x228 ./Peripheral/src/ch32x035_gpio.o
+ .debug_frame   0x0000000000000850       0x54 ./Peripheral/src/ch32x035_misc.o
+ .debug_frame   0x00000000000008a4       0xdc ./Peripheral/src/ch32x035_pwr.o
+ .debug_frame   0x0000000000000980      0x1d0 ./Peripheral/src/ch32x035_rcc.o
+ .debug_frame   0x0000000000000b50      0x37c ./Peripheral/src/ch32x035_usart.o
+ .debug_frame   0x0000000000000ecc       0xfc ./Debug/debug.o
+ .debug_frame   0x0000000000000fc8       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000fe8       0x54 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-printf.o)
+ .debug_frame   0x000000000000103c       0x54 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-puts.o)
+ .debug_frame   0x0000000000001090       0x50 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x00000000000010e0       0x3c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x000000000000111c       0x7c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fflush.o)
+ .debug_frame   0x0000000000001198      0x148 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-findfp.o)
+ .debug_frame   0x00000000000012e0       0x88 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x0000000000001368       0x64 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x00000000000013cc       0x40 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x000000000000140c       0x40 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x000000000000144c       0xd0 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x000000000000151c       0x8c c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000000000015a8       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000000015d8       0xa4 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-stdio.o)
+ .debug_frame   0x000000000000167c       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-writer.o)
+ .debug_frame   0x00000000000016ac       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-closer.o)
+ .debug_frame   0x00000000000016dc       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-fstatr.o)
+ .debug_frame   0x000000000000170c       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-isattyr.o)
+ .debug_frame   0x000000000000173c       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-lseekr.o)
+ .debug_frame   0x000000000000176c       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-memchr.o)
+ .debug_frame   0x000000000000178c       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00000000000017bc       0x30 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-readr.o)
+ .debug_frame   0x00000000000017ec       0x70 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x000000000000185c       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)
+ .debug_frame   0x000000000000187c       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(fstat.o)
+ .debug_frame   0x000000000000189c       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(isatty.o)
+ .debug_frame   0x00000000000018bc       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(lseek.o)
+ .debug_frame   0x00000000000018dc       0x20 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
+
+.stab           0x0000000000000000       0x84
+ .stab          0x0000000000000000       0x24 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)
+ .stab          0x0000000000000024       0x18 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(fstat.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000003c       0x18 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(isatty.o)
+                                         0x24 (size before relaxing)
+ .stab          0x0000000000000054       0x18 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(lseek.o)
+                                         0x24 (size before relaxing)
+ .stab          0x000000000000006c       0x18 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(read.o)
+                                         0x24 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x117
+ .stabstr       0x0000000000000000      0x117 c:/mounriver/mounriver_studio/toolchain/risc-v embedded gcc/bin/../lib/gcc/riscv-none-embed/8.2.0/../../../../riscv-none-embed/lib/rv32imacxw/ilp32\libnosys.a(close.o)

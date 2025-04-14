@@ -40,6 +40,7 @@ __attribute__ ((aligned(4))) uint8_t USBFS_EP3_Buf[ DEF_USBD_ENDP3_SIZE ];
 /* USB IN Endpoint Busy Flag */
 volatile uint8_t  USBFS_Endp_Busy[ DEF_UEP_NUM ];
 
+uint8_t  Com_Cfg[ 8 ]={0};
 
 /******************************************************************************/
 /* Interrupt Service Routine Declaration*/
@@ -483,8 +484,8 @@ void USBFS_IRQHandler( void )
                         switch( USBFS_SetupReqCode )
                         {
                             case CDC_GET_LINE_CODING:
-                               /// pUSBFS_Descr = (uint8_t *)&Uart.Com_Cfg[ 0 ];
-                               /// len = 7;
+                                pUSBFS_Descr = (uint8_t *)&Com_Cfg[ 0 ];
+                                len = 7;
                                 break;
 
                             case CDC_SET_LINE_CODING:

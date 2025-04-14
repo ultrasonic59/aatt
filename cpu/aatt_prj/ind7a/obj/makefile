@@ -54,7 +54,7 @@ all: ind7a.elf secondary-outputs
 
 # Tool invocations
 ind7a.elf: $(OBJS) $(USER_OBJS)
-	@	@	riscv-none-embed-gcc -march=rv32ecxw -mabi=ilp32e -msmall-data-limit=0 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "E:\proj\velograph\aatt\cpu\aatt_prj\ind7a\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"ind7a.map" --specs=nano.specs --specs=nosys.specs -o "ind7a.elf" $(OBJS) $(USER_OBJS) $(LIBS) -lprintf
+	@	@	riscv-none-embed-gcc -march=rv32ecxw -mabi=ilp32e -msmall-data-limit=0 -msave-restore -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized  -g -T "D:\proj\velograph\aatt\cpu\aatt_prj\ind7a\Ld\Link.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"ind7a.map" --specs=nano.specs --specs=nosys.specs -o "ind7a.elf" $(OBJS) $(USER_OBJS) $(LIBS) -lprintf
 	@	@
 ind7a.hex: ind7a.elf
 	@	riscv-none-embed-objcopy -O ihex "ind7a.elf"  "ind7a.hex"

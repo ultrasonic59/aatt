@@ -5,16 +5,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../User/UART.c \
 ../User/ch32x035_it.c \
 ../User/main.c \
 ../User/system_ch32x035.c 
 
 OBJS += \
+./User/UART.o \
 ./User/ch32x035_it.o \
 ./User/main.o \
 ./User/system_ch32x035.o 
 
 C_DEPS += \
+./User/UART.d \
 ./User/ch32x035_it.d \
 ./User/main.d \
 ./User/system_ch32x035.d 

@@ -24,6 +24,7 @@
 #include "debug.h"
 
 #include "aatt2_brd.h"
+#include "UART.h"
 
 __attribute__ ((aligned(4))) uint8_t  USB_Rx_Buf[ DEF_RX_BUF_LEN ];
 __attribute__ ((aligned(4))) uint8_t  USB_Tx_Buf[ DEF_TX_BUF_LEN ];
@@ -146,6 +147,7 @@ void GPIO_Toggle_INIT(void)
     GPIO_Init(GPIOB, &GPIO_InitStructure);
 }
 #define MAX_CNT_LED 10
+#if 1
 /*********************************************************************
  * @fn      main
  *
@@ -172,7 +174,7 @@ uint8_t cnt_led=0;
     RCC_Configuration( );
     GPIO_Toggle_INIT();
     board_init();
-    set_rele_db(0);
+ ////   set_rele_db(0);
     printf("SystemClk:%d\r\n", SystemCoreClock);
     printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
 
@@ -198,6 +200,7 @@ tst++;
  ///   set_rele_db(34);
 
     printf("\r\n start loop\r\n");
+    send_i2c_db(0xee);
 #if 1
     while(1)
     {
@@ -242,3 +245,31 @@ tst++;
 #endif
 ///====================================================
 }
+#else
+int main(void)
+{
+
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
+    SystemCoreClockUpdate();
+    Delay_Init();
+    USART_Printf_Init(115200);
+    printf("SystemClk:%d\r\n", SystemCoreClock);
+    printf("ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
+    RCC_Configuration( );
+
+    /* Tim3 init */
+    TIM3_Init( );
+
+    /* Usart1 init */
+    UART2_Init( 1, DEF_UARTx_BAUDRATE, DEF_UARTx_STOPBIT, DEF_UARTx_PARITY );
+
+    /* Usb Init */
+    USBFS_RCC_Init( );
+    USBFS_Device_Init( ENABLE , PWR_VDD_SupplyVoltage());
+    while(1)
+    {
+        UART2_DataRx_Deal( );
+        UART2_DataTx_Deal( );
+    }
+}
+#endif

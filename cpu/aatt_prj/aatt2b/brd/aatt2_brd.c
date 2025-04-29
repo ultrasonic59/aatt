@@ -68,7 +68,6 @@ GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 GPIO_Init(UART_DBG_TX_GPIO, &GPIO_InitStructure);
 GPIO_PinRemapConfig( GPIO_FullRemap_USART2, ENABLE);
 
-
 }
 ///=============== led kk14 =======================================
 void set_led(uint8_t on_off)

@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//Debug/debug.c=GBK
 encoding//Debug/debug.h=GBK
+encoding//Peripheral/inc/ch32x035.h=GBK
 encoding//Peripheral/inc/ch32x035_gpio.h=GBK
 encoding//Peripheral/inc/ch32x035_rcc.h=GBK
 encoding//Peripheral/src/ch32x035_gpio.c=GBK
